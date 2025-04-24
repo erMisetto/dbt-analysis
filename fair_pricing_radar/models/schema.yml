@@ -1,0 +1,70 @@
+version: 2
+models:
+  - name: stg_fare_searches
+    tests:
+      - dbt_utils.equal_rowcount:
+          compare_model: ref('stg_fare_searches')     # self (row-count guard)
+
+    columns:
+      - name: legid
+        tests: [not_null, unique]
+      - name: total_miles
+        tests: [not_null]
+      - name: usd_per_mi
+        tests: [not_null]
+      - name: seats_flag
+        tests:
+          - accepted_values:
+              values: ['sold_out', 'scarce', '9plus']
+
+  - name: stg_route_stats
+    columns:
+      - name: route
+        tests: [not_null]
+      - name: fare_bucket
+        tests: [not_null]
+
+
+seeds:
+  - name: carrier_mapping
+    description: "Lookup table mapping airline codes to full airline names"
+    columns:
+      - name: code
+        description: "Two-letter IATA airline code"
+        tests:
+          - not_null
+          - unique
+      - name: name
+        description: "Full airline name"
+        tests:
+          - not_null
+  - name: seed_airport_geo
+    description: "Fallback list of IATA airports with lat/lon for null‐distance legs"
+    columns:
+      - name: iata_code
+        description: "Three‐letter airport code"
+        tests:
+          - not_null
+          - unique
+      - name: lat_deg
+        description: "Latitude in decimal degrees"
+        tests:
+          - not_null
+      - name: lon_deg
+        description: "Longitude in decimal degrees"
+        tests:
+          - not_null
+  - name: seed_fare_bucket_map
+    description: "Mapping of fare basis code first letters to high-level fare buckets for airline pricing analysis"
+    columns:
+      - name: first_letter
+        description: "The first letter of the FAREBASISCODE"
+        tests:
+          - unique
+          - not_null
+      - name: fare_bucket
+        description: "The high-level fare bucket category (prem_cabin, full_mid_econ, deep_disc_econ)"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['prem_cabin', 'full_mid_econ', 'deep_disc_econ']

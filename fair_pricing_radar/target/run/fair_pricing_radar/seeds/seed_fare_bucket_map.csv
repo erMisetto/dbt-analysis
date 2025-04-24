@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table FLIGHT_PRICES.WALRUS_PUBLIC.seed_fare_bucket_map (first_letter text,fare_bucket text)
+  ;
+    -- dbt seed --
+    
+            insert into FLIGHT_PRICES.WALRUS_PUBLIC.seed_fare_bucket_map (first_letter, fare_bucket) values
+            (%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s)
+        
+
+;
+  

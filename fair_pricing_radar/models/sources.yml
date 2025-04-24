@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw_airfares          # a logical “source” alias you choose
+    database: FLIGHT_PRICES     # must match your Snowflake DB
+    schema: WALRUS_PUBLIC              # must match your Snowflake schema
+    tables:
+      - name: flight_pricing_data      # this is what you’ll pass to source()
+        identifier: FLIGHT_PRICING_DATA  # the exact table name in Snowflake

@@ -1,0 +1,32 @@
+name: 'fair_pricing_radar'
+version: '1.0'
+config-version: 2
+profile: 'fair_pricing_radar'
+
+# Define where models live
+model-paths: ["models"]
+
+
+# Configure materializations
+models:
+  fair_pricing_radar:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: table
+    marts:
+      +materialized: view
+seeds:
+  fair_pricing_radar:        
+    carrier_mapping:
+      enabled: true
+    seed_airport_geo:      
+      enabled: true
+    seed_fare_bucket_map:
+      enabled: true
+
+vars:
+  z_threshold:      1.5          
+  r2_pct_threshold: 0.90       
+  r3_hhi_threshold: 0.80       
+
