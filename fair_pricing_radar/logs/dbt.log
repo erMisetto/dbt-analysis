@@ -23846,3 +23846,1075 @@ select * from kpis
 [0m00:23:57.606361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3CD21D360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3D72E0250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3CD2B0F70>]}
 [0m00:23:57.607358 [debug] [MainThread]: Flushing usage events
 [0m00:23:57.949442 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:42:11.987392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DD0619210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DD1D5A230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DD1D5A050>]}
+
+
+============================== 01:42:11.991381 | 736041f3-f666-4939-83c0-361193eb1d19 ==============================
+[0m01:42:11.991381 [info ] [MainThread]: Running with dbt=1.9.4
+[0m01:42:11.992379 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Mattia\\Business_Challenge\\fair_pricing_radar\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Mattia\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --select mart_timeseries_metrics mart_carrier_performance mart_route_performance mart_booking_window_analysis', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:42:13.091438 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '736041f3-f666-4939-83c0-361193eb1d19', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DDA360B80>]}
+[0m01:42:13.157262 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '736041f3-f666-4939-83c0-361193eb1d19', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DDA3628C0>]}
+[0m01:42:13.159257 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m01:42:13.763639 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m01:42:14.146614 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 4 files added, 0 files changed.
+[0m01:42:14.147611 [debug] [MainThread]: Partial parsing: added file: fair_pricing_radar://models\marts\mart_timeseries_metrics.sql
+[0m01:42:14.147611 [debug] [MainThread]: Partial parsing: added file: fair_pricing_radar://models\marts\mart_booking_window_analysis.sql
+[0m01:42:14.148609 [debug] [MainThread]: Partial parsing: added file: fair_pricing_radar://models\marts\mart_carrier_performance.sql
+[0m01:42:14.148609 [debug] [MainThread]: Partial parsing: added file: fair_pricing_radar://models\marts\mart_route_performance.sql
+[0m01:42:14.571478 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '736041f3-f666-4939-83c0-361193eb1d19', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DDAEFA920>]}
+[0m01:42:14.728059 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\manifest.json
+[0m01:42:14.731050 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\semantic_manifest.json
+[0m01:42:14.762965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '736041f3-f666-4939-83c0-361193eb1d19', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DDAE0F820>]}
+[0m01:42:14.763963 [info ] [MainThread]: Found 20 models, 1 analysis, 3 seeds, 19 data tests, 1 source, 475 macros
+[0m01:42:14.763963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '736041f3-f666-4939-83c0-361193eb1d19', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DDAE0F730>]}
+[0m01:42:14.766954 [info ] [MainThread]: 
+[0m01:42:14.767952 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m01:42:14.768950 [info ] [MainThread]: 
+[0m01:42:14.770945 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m01:42:14.844747 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FLIGHT_PRICES'
+[0m01:42:14.982378 [debug] [ThreadPool]: Using snowflake connection "list_FLIGHT_PRICES"
+[0m01:42:14.983375 [debug] [ThreadPool]: On list_FLIGHT_PRICES: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "connection_name": "list_FLIGHT_PRICES"} */
+show terse schemas in database FLIGHT_PRICES
+    limit 10000
+[0m01:42:14.983375 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:42:20.194432 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 5.211 seconds
+[0m01:42:20.198421 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FLIGHT_PRICES_WALRUS_PUBLIC'
+[0m01:42:20.210389 [debug] [ThreadPool]: Using snowflake connection "list_FLIGHT_PRICES_WALRUS_PUBLIC"
+[0m01:42:20.210389 [debug] [ThreadPool]: On list_FLIGHT_PRICES_WALRUS_PUBLIC: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "connection_name": "list_FLIGHT_PRICES_WALRUS_PUBLIC"} */
+show objects in FLIGHT_PRICES.WALRUS_PUBLIC limit 10000;
+[0m01:42:20.211387 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:42:23.947390 [debug] [ThreadPool]: SQL status: SUCCESS 17 in 3.735 seconds
+[0m01:42:23.952376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '736041f3-f666-4939-83c0-361193eb1d19', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DCE5CD690>]}
+[0m01:42:23.958361 [debug] [Thread-1 (]: Began running node model.fair_pricing_radar.mart_booking_window_analysis
+[0m01:42:23.958361 [debug] [Thread-2 (]: Began running node model.fair_pricing_radar.mart_carrier_performance
+[0m01:42:23.958361 [debug] [Thread-3 (]: Began running node model.fair_pricing_radar.mart_route_performance
+[0m01:42:23.959358 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.mart_timeseries_metrics
+[0m01:42:23.960355 [info ] [Thread-1 (]: 1 of 4 START sql table model WALRUS_PUBLIC.mart_booking_window_analysis ........ [RUN]
+[0m01:42:23.960355 [info ] [Thread-2 (]: 2 of 4 START sql table model WALRUS_PUBLIC.mart_carrier_performance ............ [RUN]
+[0m01:42:23.961353 [info ] [Thread-3 (]: 3 of 4 START sql table model WALRUS_PUBLIC.mart_route_performance .............. [RUN]
+[0m01:42:23.963348 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.mart_booking_window_analysis'
+[0m01:42:23.962351 [info ] [Thread-4 (]: 4 of 4 START sql table model WALRUS_PUBLIC.mart_timeseries_metrics ............. [RUN]
+[0m01:42:23.964345 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.mart_carrier_performance'
+[0m01:42:23.965343 [debug] [Thread-3 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.mart_route_performance'
+[0m01:42:23.966339 [debug] [Thread-1 (]: Began compiling node model.fair_pricing_radar.mart_booking_window_analysis
+[0m01:42:23.967337 [debug] [Thread-4 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.mart_timeseries_metrics'
+[0m01:42:23.967337 [debug] [Thread-2 (]: Began compiling node model.fair_pricing_radar.mart_carrier_performance
+[0m01:42:23.968334 [debug] [Thread-3 (]: Began compiling node model.fair_pricing_radar.mart_route_performance
+[0m01:42:23.978307 [debug] [Thread-1 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_booking_window_analysis"
+[0m01:42:23.979304 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.mart_timeseries_metrics
+[0m01:42:23.984291 [debug] [Thread-2 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_carrier_performance"
+[0m01:42:23.989278 [debug] [Thread-3 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_route_performance"
+[0m01:42:23.994264 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_timeseries_metrics"
+[0m01:42:23.995262 [debug] [Thread-1 (]: Began executing node model.fair_pricing_radar.mart_booking_window_analysis
+[0m01:42:23.996260 [debug] [Thread-2 (]: Began executing node model.fair_pricing_radar.mart_carrier_performance
+[0m01:42:23.997258 [debug] [Thread-3 (]: Began executing node model.fair_pricing_radar.mart_route_performance
+[0m01:42:24.017203 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.mart_timeseries_metrics
+[0m01:42:24.030169 [debug] [Thread-1 (]: Writing runtime sql for node "model.fair_pricing_radar.mart_booking_window_analysis"
+[0m01:42:24.033160 [debug] [Thread-2 (]: Writing runtime sql for node "model.fair_pricing_radar.mart_carrier_performance"
+[0m01:42:24.036152 [debug] [Thread-3 (]: Writing runtime sql for node "model.fair_pricing_radar.mart_route_performance"
+[0m01:42:24.040141 [debug] [Thread-4 (]: Writing runtime sql for node "model.fair_pricing_radar.mart_timeseries_metrics"
+[0m01:42:24.043134 [debug] [Thread-1 (]: Using snowflake connection "model.fair_pricing_radar.mart_booking_window_analysis"
+[0m01:42:24.045128 [debug] [Thread-2 (]: Using snowflake connection "model.fair_pricing_radar.mart_carrier_performance"
+[0m01:42:24.048120 [debug] [Thread-3 (]: Using snowflake connection "model.fair_pricing_radar.mart_route_performance"
+[0m01:42:24.049118 [debug] [Thread-1 (]: On model.fair_pricing_radar.mart_booking_window_analysis: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "node_id": "model.fair_pricing_radar.mart_booking_window_analysis"} */
+create or replace transient table FLIGHT_PRICES.WALRUS_PUBLIC.mart_booking_window_analysis
+         as
+        (
+
+select
+    dtf_bucket,
+    fare_bucket,
+    
+    -- Count metrics
+    count(*) as total_bookings,
+    sum(any_rule_flag) as flagged_bookings,
+    100.0 * sum(any_rule_flag) / nullif(count(*), 0) as pct_flagged,
+    
+    -- Rule breakdown
+    sum(r1_price_outlier) as r1_flags,
+    sum(r2_seat_scarcity) as r2_flags,
+    sum(r3_monopoly_premium) as r3_flags,
+    
+    -- Fare metrics by bucket
+    avg(total_fare) as avg_fare,
+    median(total_fare) as median_fare,
+    stddev(total_fare) as stddev_fare,
+    min(total_fare) as min_fare,
+    max(total_fare) as max_fare,
+    
+    -- Flagged fares metrics
+    avg(case when any_rule_flag = 1 then total_fare else null end) as avg_flagged_fare,
+    median(case when any_rule_flag = 1 then total_fare else null end) as median_flagged_fare,
+    
+    -- Premium calculation (average difference between flagged and normal)
+    avg(case when any_rule_flag = 1 then total_fare else null end) - 
+    avg(case when any_rule_flag = 0 then total_fare else null end) as avg_premium,
+    
+    -- Booking patterns
+    count(distinct carrier_code) as unique_carriers,
+    count(distinct route) as unique_routes
+
+from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features
+group by dtf_bucket, fare_bucket
+order by 
+    case 
+        when dtf_bucket = '00-03' then 1
+        when dtf_bucket = '04-07' then 2
+        when dtf_bucket = '08-29' then 3
+        when dtf_bucket = '30+' then 4
+    end,
+    fare_bucket
+        );
+[0m01:42:24.051113 [debug] [Thread-4 (]: Using snowflake connection "model.fair_pricing_radar.mart_timeseries_metrics"
+[0m01:42:24.052110 [debug] [Thread-2 (]: On model.fair_pricing_radar.mart_carrier_performance: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "node_id": "model.fair_pricing_radar.mart_carrier_performance"} */
+create or replace transient table FLIGHT_PRICES.WALRUS_PUBLIC.mart_carrier_performance
+         as
+        (
+
+select
+    c.carrier_code,
+    c.carrier_name,
+    
+    -- Booking volumes
+    count(*) as total_bookings,
+    sum(f.any_rule_flag) as flagged_bookings,
+    100.0 * sum(f.any_rule_flag) / nullif(count(*), 0) as pct_flagged,
+    
+    -- Flag type breakdown
+    sum(f.r1_price_outlier) as r1_price_outlier_count,
+    sum(f.r2_seat_scarcity) as r2_seat_scarcity_count,
+    sum(f.r3_monopoly_premium) as r3_monopoly_premium_count,
+    
+    -- Percentage breakdown
+    100.0 * sum(f.r1_price_outlier) / nullif(count(*), 0) as pct_r1_outliers,
+    100.0 * sum(f.r2_seat_scarcity) / nullif(count(*), 0) as pct_r2_scarcity,
+    100.0 * sum(f.r3_monopoly_premium) / nullif(count(*), 0) as pct_r3_monopoly,
+    
+    -- Fare metrics
+    avg(f.total_fare) as avg_fare,
+    median(f.total_fare) as median_fare,
+    avg(case when f.any_rule_flag = 1 then f.total_fare else null end) as avg_flagged_fare,
+    
+    -- Extra cost total
+    sum(
+        case 
+            when f.any_rule_flag = 1 then 
+                f.total_fare - (
+                    select median_fare 
+                    from FLIGHT_PRICES.WALRUS_PUBLIC.int_route_daily_prices rdp
+                    where rdp.route = f.route
+                    and rdp.carrier_code = f.carrier_code
+                    and rdp.dtf_bucket = f.dtf_bucket
+                    and rdp.flight_date = f.flight_date
+                )
+            else 0
+        end
+    ) as total_extra_cost,
+    
+    -- Number of routes served
+    count(distinct f.route) as routes_served,
+    
+    -- Monopoly routes count
+    sum(
+        case
+            when rc.hhi >= 0.8 then 1
+            else 0
+        end
+    ) as monopoly_routes_count
+
+from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features f
+join FLIGHT_PRICES.WALRUS_PUBLIC.dim_carrier c
+    on f.carrier_code = c.carrier_code
+left join FLIGHT_PRICES.WALRUS_PUBLIC.int_route_competition rc
+    on rc.route = f.route
+group by c.carrier_code, c.carrier_name
+        );
+[0m01:42:24.052110 [debug] [Thread-3 (]: On model.fair_pricing_radar.mart_route_performance: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "node_id": "model.fair_pricing_radar.mart_route_performance"} */
+create or replace transient table FLIGHT_PRICES.WALRUS_PUBLIC.mart_route_performance
+         as
+        (
+
+with route_parts as (
+    select
+        route,
+        split_part(route, '-', 1) as origin,
+        split_part(route, '-', 2) as destination
+    from (
+        select distinct route from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features
+    )
+)
+
+select
+    r.route,
+    r.origin,
+    r.destination,
+    
+    -- Add geo data
+    og.lat_deg as origin_lat,
+    og.lon_deg as origin_lon,
+    dg.lat_deg as destination_lat,
+    dg.lon_deg as destination_lon,
+    
+    -- Summary metrics
+    count(*) as total_bookings,
+    sum(f.any_rule_flag) as flagged_bookings,
+    100.0 * sum(f.any_rule_flag) / count(*) as pct_flagged,
+    
+    -- Rule breakdown
+    sum(f.r1_price_outlier) as r1_flags,
+    sum(f.r2_seat_scarcity) as r2_flags,
+    sum(f.r3_monopoly_premium) as r3_flags,
+    
+    -- Competition metrics
+    rc.carrier_count,
+    rc.hhi,
+    case
+        when rc.hhi >= 0.8 then 'High Concentration'
+        when rc.hhi >= 0.5 then 'Moderate Concentration'
+        else 'Low Concentration'
+    end as concentration_level,
+    
+    -- Price metrics
+    avg(f.total_fare) as avg_fare,
+    median(f.total_fare) as median_fare,
+    avg(case when f.any_rule_flag = 1 then f.total_fare else null end) as avg_flagged_fare,
+    
+    -- Distance metrics
+    avg(f.trip_dist) as avg_distance_miles,
+    
+    -- Estimated extra cost
+    sum(
+        case 
+            when f.any_rule_flag = 1 then 
+                f.total_fare - (
+                    select median_fare 
+                    from FLIGHT_PRICES.WALRUS_PUBLIC.int_route_daily_prices rdp
+                    where rdp.route = f.route
+                    and rdp.carrier_code = f.carrier_code
+                    and rdp.dtf_bucket = f.dtf_bucket
+                    and rdp.flight_date = f.flight_date
+                )
+            else 0
+        end
+    ) as total_extra_cost,
+    
+    -- Serving carriers list
+    array_agg(distinct f.carrier_code) as serving_carriers
+
+from route_parts r
+join FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features f
+    on r.route = f.route
+left join FLIGHT_PRICES.WALRUS_PUBLIC.seed_airport_geo og
+    on r.origin = og.iata_code
+left join FLIGHT_PRICES.WALRUS_PUBLIC.seed_airport_geo dg
+    on r.destination = dg.iata_code
+left join FLIGHT_PRICES.WALRUS_PUBLIC.int_route_competition rc
+    on r.route = rc.route
+group by 
+    r.route, 
+    r.origin, 
+    r.destination,
+    og.lat_deg, 
+    og.lon_deg, 
+    dg.lat_deg, 
+    dg.lon_deg,
+    rc.carrier_count,
+    rc.hhi
+        );
+[0m01:42:24.053107 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m01:42:24.054105 [debug] [Thread-4 (]: On model.fair_pricing_radar.mart_timeseries_metrics: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "node_id": "model.fair_pricing_radar.mart_timeseries_metrics"} */
+create or replace transient table FLIGHT_PRICES.WALRUS_PUBLIC.mart_timeseries_metrics
+         as
+        (
+
+select
+    flight_date,
+    count(*) as total_bookings,
+    sum(any_rule_flag) as flagged_bookings,
+    100.0 * sum(any_rule_flag) / count(*) as pct_flagged,
+    
+    -- Average prices
+    avg(total_fare) as avg_total_fare,
+    median(total_fare) as median_total_fare,
+    avg(case when any_rule_flag = 1 then total_fare else null end) as avg_flagged_fare,
+    
+    -- Rule breakdown
+    sum(r1_price_outlier) as r1_flags,
+    sum(r2_seat_scarcity) as r2_flags,
+    sum(r3_monopoly_premium) as r3_flags,
+    
+    -- Extra cost calculation
+    sum(
+        case 
+            when any_rule_flag = 1 then 
+                total_fare - (
+                    select median_fare 
+                    from FLIGHT_PRICES.WALRUS_PUBLIC.int_route_daily_prices rdp
+                    where rdp.route = mpf.route
+                    and rdp.carrier_code = mpf.carrier_code
+                    and rdp.dtf_bucket = mpf.dtf_bucket
+                    and rdp.flight_date = mpf.flight_date
+                )
+            else 0
+        end
+    ) as daily_extra_cost
+
+from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features mpf
+group by flight_date
+order by flight_date
+        );
+[0m01:42:24.055102 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m01:42:24.056099 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m01:42:24.058094 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m01:42:29.384840 [debug] [Thread-3 (]: Snowflake adapter: Snowflake query id: None
+[0m01:42:29.385838 [debug] [Thread-3 (]: Snowflake adapter: Snowflake error: 002031 (42601): SQL compilation error:
+Unsupported subquery type cannot be evaluated
+[0m01:42:29.387833 [debug] [Thread-3 (]: Database Error in model mart_route_performance (models\marts\mart_route_performance.sql)
+  002031 (42601): SQL compilation error:
+  Unsupported subquery type cannot be evaluated
+  compiled code at target\run\fair_pricing_radar\models\marts\mart_route_performance.sql
+[0m01:42:29.390824 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '736041f3-f666-4939-83c0-361193eb1d19', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DDBD436D0>]}
+[0m01:42:29.391822 [error] [Thread-3 (]: 3 of 4 ERROR creating sql table model WALRUS_PUBLIC.mart_route_performance ..... [[31mERROR[0m in 5.42s]
+[0m01:42:29.392820 [debug] [Thread-3 (]: Finished running node model.fair_pricing_radar.mart_route_performance
+[0m01:42:29.393817 [debug] [Thread-7 (]: Marking all children of 'model.fair_pricing_radar.mart_route_performance' to be skipped because of status 'error'.  Reason: Database Error in model mart_route_performance (models\marts\mart_route_performance.sql)
+  002031 (42601): SQL compilation error:
+  Unsupported subquery type cannot be evaluated
+  compiled code at target\run\fair_pricing_radar\models\marts\mart_route_performance.sql.
+[0m01:42:32.222248 [debug] [Thread-2 (]: Snowflake adapter: Snowflake query id: None
+[0m01:42:32.223245 [debug] [Thread-2 (]: Snowflake adapter: Snowflake error: 002031 (42601): SQL compilation error:
+Unsupported subquery type cannot be evaluated
+[0m01:42:32.225240 [debug] [Thread-2 (]: Database Error in model mart_carrier_performance (models\marts\mart_carrier_performance.sql)
+  002031 (42601): SQL compilation error:
+  Unsupported subquery type cannot be evaluated
+  compiled code at target\run\fair_pricing_radar\models\marts\mart_carrier_performance.sql
+[0m01:42:32.226237 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '736041f3-f666-4939-83c0-361193eb1d19', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DDB9B9FC0>]}
+[0m01:42:32.227235 [error] [Thread-2 (]: 2 of 4 ERROR creating sql table model WALRUS_PUBLIC.mart_carrier_performance ... [[31mERROR[0m in 8.26s]
+[0m01:42:32.228232 [debug] [Thread-2 (]: Finished running node model.fair_pricing_radar.mart_carrier_performance
+[0m01:42:32.229230 [debug] [Thread-7 (]: Marking all children of 'model.fair_pricing_radar.mart_carrier_performance' to be skipped because of status 'error'.  Reason: Database Error in model mart_carrier_performance (models\marts\mart_carrier_performance.sql)
+  002031 (42601): SQL compilation error:
+  Unsupported subquery type cannot be evaluated
+  compiled code at target\run\fair_pricing_radar\models\marts\mart_carrier_performance.sql.
+[0m01:42:36.058982 [debug] [Thread-4 (]: Snowflake adapter: Snowflake query id: None
+[0m01:42:36.059979 [debug] [Thread-4 (]: Snowflake adapter: Snowflake error: 002031 (42601): SQL compilation error:
+Unsupported subquery type cannot be evaluated
+[0m01:42:36.061974 [debug] [Thread-4 (]: Database Error in model mart_timeseries_metrics (models\marts\mart_timeseries_metrics.sql)
+  002031 (42601): SQL compilation error:
+  Unsupported subquery type cannot be evaluated
+  compiled code at target\run\fair_pricing_radar\models\marts\mart_timeseries_metrics.sql
+[0m01:42:36.062971 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '736041f3-f666-4939-83c0-361193eb1d19', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DDBD41F60>]}
+[0m01:42:36.063969 [error] [Thread-4 (]: 4 of 4 ERROR creating sql table model WALRUS_PUBLIC.mart_timeseries_metrics .... [[31mERROR[0m in 12.10s]
+[0m01:42:36.064966 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.mart_timeseries_metrics
+[0m01:42:36.065963 [debug] [Thread-7 (]: Marking all children of 'model.fair_pricing_radar.mart_timeseries_metrics' to be skipped because of status 'error'.  Reason: Database Error in model mart_timeseries_metrics (models\marts\mart_timeseries_metrics.sql)
+  002031 (42601): SQL compilation error:
+  Unsupported subquery type cannot be evaluated
+  compiled code at target\run\fair_pricing_radar\models\marts\mart_timeseries_metrics.sql.
+[0m01:44:35.658960 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 131.605 seconds
+[0m01:44:35.681897 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '736041f3-f666-4939-83c0-361193eb1d19', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DCE5CD510>]}
+[0m01:44:35.683893 [info ] [Thread-1 (]: 1 of 4 OK created sql table model WALRUS_PUBLIC.mart_booking_window_analysis ... [[32mSUCCESS 1[0m in 131.72s]
+[0m01:44:35.684889 [debug] [Thread-1 (]: Finished running node model.fair_pricing_radar.mart_booking_window_analysis
+[0m01:44:35.686884 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m01:44:35.686884 [debug] [MainThread]: Connection 'list_FLIGHT_PRICES' was left open.
+[0m01:44:35.687881 [debug] [MainThread]: On list_FLIGHT_PRICES: Close
+[0m01:44:36.097784 [debug] [MainThread]: Connection 'list_FLIGHT_PRICES_WALRUS_PUBLIC' was left open.
+[0m01:44:36.098781 [debug] [MainThread]: On list_FLIGHT_PRICES_WALRUS_PUBLIC: Close
+[0m01:44:36.490733 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_booking_window_analysis' was left open.
+[0m01:44:36.491730 [debug] [MainThread]: On model.fair_pricing_radar.mart_booking_window_analysis: Close
+[0m01:44:36.834812 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_carrier_performance' was left open.
+[0m01:44:36.835809 [debug] [MainThread]: On model.fair_pricing_radar.mart_carrier_performance: Close
+[0m01:44:37.276630 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_route_performance' was left open.
+[0m01:44:37.277627 [debug] [MainThread]: On model.fair_pricing_radar.mart_route_performance: Close
+[0m01:44:37.653621 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_timeseries_metrics' was left open.
+[0m01:44:37.654618 [debug] [MainThread]: On model.fair_pricing_radar.mart_timeseries_metrics: Close
+[0m01:44:38.061529 [info ] [MainThread]: 
+[0m01:44:38.062528 [info ] [MainThread]: Finished running 4 table models in 0 hours 2 minutes and 23.29 seconds (143.29s).
+[0m01:44:38.064621 [debug] [MainThread]: Command end result
+[0m01:44:38.098431 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\manifest.json
+[0m01:44:38.102420 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\semantic_manifest.json
+[0m01:44:38.112394 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\run_results.json
+[0m01:44:38.112394 [info ] [MainThread]: 
+[0m01:44:38.113391 [info ] [MainThread]: [31mCompleted with 3 errors, 0 partial successes, and 0 warnings:[0m
+[0m01:44:38.114388 [info ] [MainThread]: 
+[0m01:44:38.115386 [error] [MainThread]:   Database Error in model mart_route_performance (models\marts\mart_route_performance.sql)
+  002031 (42601): SQL compilation error:
+  Unsupported subquery type cannot be evaluated
+  compiled code at target\run\fair_pricing_radar\models\marts\mart_route_performance.sql
+[0m01:44:38.116383 [info ] [MainThread]: 
+[0m01:44:38.117381 [error] [MainThread]:   Database Error in model mart_carrier_performance (models\marts\mart_carrier_performance.sql)
+  002031 (42601): SQL compilation error:
+  Unsupported subquery type cannot be evaluated
+  compiled code at target\run\fair_pricing_radar\models\marts\mart_carrier_performance.sql
+[0m01:44:38.119375 [info ] [MainThread]: 
+[0m01:44:38.120372 [error] [MainThread]:   Database Error in model mart_timeseries_metrics (models\marts\mart_timeseries_metrics.sql)
+  002031 (42601): SQL compilation error:
+  Unsupported subquery type cannot be evaluated
+  compiled code at target\run\fair_pricing_radar\models\marts\mart_timeseries_metrics.sql
+[0m01:44:38.122367 [info ] [MainThread]: 
+[0m01:44:38.122367 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=3 SKIP=0 TOTAL=4
+[0m01:44:38.125360 [debug] [MainThread]: Command `dbt run` failed at 01:44:38.125360 after 146.23 seconds
+[0m01:44:38.126357 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DD0619210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DD0698DC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DDBD2AAA0>]}
+[0m01:44:38.126357 [debug] [MainThread]: Flushing usage events
+[0m01:44:38.469439 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:48:26.027542 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F554719270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F555E59D20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F555E59F00>]}
+
+
+============================== 01:48:26.031531 | 4e5ac247-0bd3-4bc1-94e0-e214a5ac4b62 ==============================
+[0m01:48:26.031531 [info ] [MainThread]: Running with dbt=1.9.4
+[0m01:48:26.032530 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mattia\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\Mattia\\Business_Challenge\\fair_pricing_radar\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run --select mart_timeseries_metrics mart_carrier_performance mart_route_performance mart_booking_window_analysis', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m01:48:26.927135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4e5ac247-0bd3-4bc1-94e0-e214a5ac4b62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F55E566950>]}
+[0m01:48:26.985977 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4e5ac247-0bd3-4bc1-94e0-e214a5ac4b62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F55E567B50>]}
+[0m01:48:26.987972 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m01:48:27.550467 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m01:48:27.859639 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 3 files changed.
+[0m01:48:27.860638 [debug] [MainThread]: Partial parsing: updated file: fair_pricing_radar://models\marts\mart_carrier_performance.sql
+[0m01:48:27.861635 [debug] [MainThread]: Partial parsing: updated file: fair_pricing_radar://models\marts\mart_route_performance.sql
+[0m01:48:27.862632 [debug] [MainThread]: Partial parsing: updated file: fair_pricing_radar://models\marts\mart_timeseries_metrics.sql
+[0m01:48:28.235634 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4e5ac247-0bd3-4bc1-94e0-e214a5ac4b62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F55F1AC130>]}
+[0m01:48:28.380246 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\manifest.json
+[0m01:48:28.383239 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\semantic_manifest.json
+[0m01:48:28.407175 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4e5ac247-0bd3-4bc1-94e0-e214a5ac4b62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F55F01FC40>]}
+[0m01:48:28.408172 [info ] [MainThread]: Found 20 models, 1 analysis, 3 seeds, 19 data tests, 1 source, 475 macros
+[0m01:48:28.409170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4e5ac247-0bd3-4bc1-94e0-e214a5ac4b62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F55F01F9A0>]}
+[0m01:48:28.411164 [info ] [MainThread]: 
+[0m01:48:28.412161 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m01:48:28.413159 [info ] [MainThread]: 
+[0m01:48:28.414157 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m01:48:28.421138 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FLIGHT_PRICES'
+[0m01:48:28.528849 [debug] [ThreadPool]: Using snowflake connection "list_FLIGHT_PRICES"
+[0m01:48:28.529846 [debug] [ThreadPool]: On list_FLIGHT_PRICES: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "connection_name": "list_FLIGHT_PRICES"} */
+show terse schemas in database FLIGHT_PRICES
+    limit 10000
+[0m01:48:28.529846 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:48:34.572677 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 6.043 seconds
+[0m01:48:34.576666 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FLIGHT_PRICES_WALRUS_PUBLIC'
+[0m01:48:34.586640 [debug] [ThreadPool]: Using snowflake connection "list_FLIGHT_PRICES_WALRUS_PUBLIC"
+[0m01:48:34.586640 [debug] [ThreadPool]: On list_FLIGHT_PRICES_WALRUS_PUBLIC: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "connection_name": "list_FLIGHT_PRICES_WALRUS_PUBLIC"} */
+show objects in FLIGHT_PRICES.WALRUS_PUBLIC limit 10000;
+[0m01:48:34.587637 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:48:38.325635 [debug] [ThreadPool]: SQL status: SUCCESS 18 in 3.738 seconds
+[0m01:48:38.331619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4e5ac247-0bd3-4bc1-94e0-e214a5ac4b62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F55E567370>]}
+[0m01:48:38.335608 [debug] [Thread-1 (]: Began running node model.fair_pricing_radar.mart_booking_window_analysis
+[0m01:48:38.336606 [debug] [Thread-2 (]: Began running node model.fair_pricing_radar.mart_carrier_performance
+[0m01:48:38.336606 [debug] [Thread-3 (]: Began running node model.fair_pricing_radar.mart_route_performance
+[0m01:48:38.337603 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.mart_timeseries_metrics
+[0m01:48:38.337603 [info ] [Thread-1 (]: 1 of 4 START sql table model WALRUS_PUBLIC.mart_booking_window_analysis ........ [RUN]
+[0m01:48:38.338601 [info ] [Thread-2 (]: 2 of 4 START sql table model WALRUS_PUBLIC.mart_carrier_performance ............ [RUN]
+[0m01:48:38.339598 [info ] [Thread-3 (]: 3 of 4 START sql table model WALRUS_PUBLIC.mart_route_performance .............. [RUN]
+[0m01:48:38.339598 [info ] [Thread-4 (]: 4 of 4 START sql table model WALRUS_PUBLIC.mart_timeseries_metrics ............. [RUN]
+[0m01:48:38.340595 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.mart_booking_window_analysis'
+[0m01:48:38.341593 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.mart_carrier_performance'
+[0m01:48:38.342590 [debug] [Thread-3 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.mart_route_performance'
+[0m01:48:38.342590 [debug] [Thread-4 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.mart_timeseries_metrics'
+[0m01:48:38.343587 [debug] [Thread-1 (]: Began compiling node model.fair_pricing_radar.mart_booking_window_analysis
+[0m01:48:38.344585 [debug] [Thread-2 (]: Began compiling node model.fair_pricing_radar.mart_carrier_performance
+[0m01:48:38.344585 [debug] [Thread-3 (]: Began compiling node model.fair_pricing_radar.mart_route_performance
+[0m01:48:38.345582 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.mart_timeseries_metrics
+[0m01:48:38.353560 [debug] [Thread-1 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_booking_window_analysis"
+[0m01:48:38.357550 [debug] [Thread-2 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_carrier_performance"
+[0m01:48:38.363534 [debug] [Thread-3 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_route_performance"
+[0m01:48:38.367523 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_timeseries_metrics"
+[0m01:48:38.369518 [debug] [Thread-1 (]: Began executing node model.fair_pricing_radar.mart_booking_window_analysis
+[0m01:48:38.370515 [debug] [Thread-2 (]: Began executing node model.fair_pricing_radar.mart_carrier_performance
+[0m01:48:38.370515 [debug] [Thread-3 (]: Began executing node model.fair_pricing_radar.mart_route_performance
+[0m01:48:38.404424 [debug] [Thread-1 (]: Writing runtime sql for node "model.fair_pricing_radar.mart_booking_window_analysis"
+[0m01:48:38.407416 [debug] [Thread-2 (]: Writing runtime sql for node "model.fair_pricing_radar.mart_carrier_performance"
+[0m01:48:38.408413 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.mart_timeseries_metrics
+[0m01:48:38.411405 [debug] [Thread-3 (]: Writing runtime sql for node "model.fair_pricing_radar.mart_route_performance"
+[0m01:48:38.413400 [debug] [Thread-1 (]: Using snowflake connection "model.fair_pricing_radar.mart_booking_window_analysis"
+[0m01:48:38.416392 [debug] [Thread-4 (]: Writing runtime sql for node "model.fair_pricing_radar.mart_timeseries_metrics"
+[0m01:48:38.419384 [debug] [Thread-2 (]: Using snowflake connection "model.fair_pricing_radar.mart_carrier_performance"
+[0m01:48:38.420382 [debug] [Thread-1 (]: On model.fair_pricing_radar.mart_booking_window_analysis: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "node_id": "model.fair_pricing_radar.mart_booking_window_analysis"} */
+create or replace transient table FLIGHT_PRICES.WALRUS_PUBLIC.mart_booking_window_analysis
+         as
+        (
+
+select
+    dtf_bucket,
+    fare_bucket,
+    
+    -- Count metrics
+    count(*) as total_bookings,
+    sum(any_rule_flag) as flagged_bookings,
+    100.0 * sum(any_rule_flag) / nullif(count(*), 0) as pct_flagged,
+    
+    -- Rule breakdown
+    sum(r1_price_outlier) as r1_flags,
+    sum(r2_seat_scarcity) as r2_flags,
+    sum(r3_monopoly_premium) as r3_flags,
+    
+    -- Fare metrics by bucket
+    avg(total_fare) as avg_fare,
+    median(total_fare) as median_fare,
+    stddev(total_fare) as stddev_fare,
+    min(total_fare) as min_fare,
+    max(total_fare) as max_fare,
+    
+    -- Flagged fares metrics
+    avg(case when any_rule_flag = 1 then total_fare else null end) as avg_flagged_fare,
+    median(case when any_rule_flag = 1 then total_fare else null end) as median_flagged_fare,
+    
+    -- Premium calculation (average difference between flagged and normal)
+    avg(case when any_rule_flag = 1 then total_fare else null end) - 
+    avg(case when any_rule_flag = 0 then total_fare else null end) as avg_premium,
+    
+    -- Booking patterns
+    count(distinct carrier_code) as unique_carriers,
+    count(distinct route) as unique_routes
+
+from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features
+group by dtf_bucket, fare_bucket
+order by 
+    case 
+        when dtf_bucket = '00-03' then 1
+        when dtf_bucket = '04-07' then 2
+        when dtf_bucket = '08-29' then 3
+        when dtf_bucket = '30+' then 4
+    end,
+    fare_bucket
+        );
+[0m01:48:38.424371 [debug] [Thread-3 (]: Using snowflake connection "model.fair_pricing_radar.mart_route_performance"
+[0m01:48:38.425369 [debug] [Thread-2 (]: On model.fair_pricing_radar.mart_carrier_performance: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "node_id": "model.fair_pricing_radar.mart_carrier_performance"} */
+create or replace transient table FLIGHT_PRICES.WALRUS_PUBLIC.mart_carrier_performance
+         as
+        (
+
+with flagged_with_median as (
+    -- Join pricing features with route daily prices to get median fare
+    select
+        f.carrier_code,
+        f.any_rule_flag,
+        f.total_fare,
+        f.r1_price_outlier,
+        f.r2_seat_scarcity,
+        f.r3_monopoly_premium,
+        f.route,
+        rdp.median_fare
+    from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features f
+    left join FLIGHT_PRICES.WALRUS_PUBLIC.int_route_daily_prices rdp
+        on  rdp.route = f.route
+        and rdp.carrier_code = f.carrier_code
+        and rdp.dtf_bucket = f.dtf_bucket
+        and rdp.flight_date = f.flight_date
+),
+
+route_competition_check as (
+    -- Get route competition data
+    select
+        f.route,
+        f.carrier_code,
+        rc.hhi
+    from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features f
+    left join FLIGHT_PRICES.WALRUS_PUBLIC.int_route_competition rc
+        on rc.route = f.route
+    group by f.route, f.carrier_code, rc.hhi
+)
+
+select
+    c.carrier_code,
+    c.carrier_name,
+    
+    -- Booking volumes
+    count(*) as total_bookings,
+    sum(f.any_rule_flag) as flagged_bookings,
+    100.0 * sum(f.any_rule_flag) / nullif(count(*), 0) as pct_flagged,
+    
+    -- Flag type breakdown
+    sum(f.r1_price_outlier) as r1_price_outlier_count,
+    sum(f.r2_seat_scarcity) as r2_seat_scarcity_count,
+    sum(f.r3_monopoly_premium) as r3_monopoly_premium_count,
+    
+    -- Percentage breakdown
+    100.0 * sum(f.r1_price_outlier) / nullif(count(*), 0) as pct_r1_outliers,
+    100.0 * sum(f.r2_seat_scarcity) / nullif(count(*), 0) as pct_r2_scarcity,
+    100.0 * sum(f.r3_monopoly_premium) / nullif(count(*), 0) as pct_r3_monopoly,
+    
+    -- Fare metrics
+    avg(f.total_fare) as avg_fare,
+    median(f.total_fare) as median_fare,
+    avg(case when f.any_rule_flag = 1 then f.total_fare else null end) as avg_flagged_fare,
+    
+    -- Extra cost total - now using pre-joined median fare
+    sum(case 
+        when f.any_rule_flag = 1 and fm.median_fare is not null then 
+            f.total_fare - fm.median_fare
+        else 0 
+    end) as total_extra_cost,
+    
+    -- Number of routes served
+    count(distinct f.route) as routes_served,
+    
+    -- Monopoly routes count
+    sum(case
+        when rc.hhi >= 0.8 then 1
+        else 0
+    end) as monopoly_routes_count
+
+from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features f
+join FLIGHT_PRICES.WALRUS_PUBLIC.dim_carrier c
+    on f.carrier_code = c.carrier_code
+left join flagged_with_median fm
+    on f.carrier_code = fm.carrier_code and f.route = fm.route
+left join route_competition_check rc
+    on f.carrier_code = rc.carrier_code and f.route = rc.route
+group by c.carrier_code, c.carrier_name
+        );
+[0m01:48:38.427363 [debug] [Thread-4 (]: Using snowflake connection "model.fair_pricing_radar.mart_timeseries_metrics"
+[0m01:48:38.427363 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m01:48:38.428360 [debug] [Thread-3 (]: On model.fair_pricing_radar.mart_route_performance: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "node_id": "model.fair_pricing_radar.mart_route_performance"} */
+create or replace transient table FLIGHT_PRICES.WALRUS_PUBLIC.mart_route_performance
+         as
+        (
+
+with route_parts as (
+    select
+        route,
+        split_part(route, '-', 1) as origin,
+        split_part(route, '-', 2) as destination
+    from (
+        select distinct route from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features
+    )
+),
+
+flagged_with_median as (
+    -- Join pricing features with route daily prices to get median fare
+    select
+        f.route,
+        f.any_rule_flag,
+        f.total_fare,
+        f.r1_price_outlier,
+        f.r2_seat_scarcity,
+        f.r3_monopoly_premium,
+        f.carrier_code,
+        rdp.median_fare
+    from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features f
+    left join FLIGHT_PRICES.WALRUS_PUBLIC.int_route_daily_prices rdp
+        on  rdp.route = f.route
+        and rdp.carrier_code = f.carrier_code
+        and rdp.dtf_bucket = f.dtf_bucket
+        and rdp.flight_date = f.flight_date
+)
+
+select
+    r.route,
+    r.origin,
+    r.destination,
+    
+    -- Add geo data
+    og.lat_deg as origin_lat,
+    og.lon_deg as origin_lon,
+    dg.lat_deg as destination_lat,
+    dg.lon_deg as destination_lon,
+    
+    -- Summary metrics
+    count(*) as total_bookings,
+    sum(f.any_rule_flag) as flagged_bookings,
+    100.0 * sum(f.any_rule_flag) / count(*) as pct_flagged,
+    
+    -- Rule breakdown
+    sum(f.r1_price_outlier) as r1_flags,
+    sum(f.r2_seat_scarcity) as r2_flags,
+    sum(f.r3_monopoly_premium) as r3_flags,
+    
+    -- Competition metrics
+    rc.carrier_count,
+    rc.hhi,
+    case
+        when rc.hhi >= 0.8 then 'High Concentration'
+        when rc.hhi >= 0.5 then 'Moderate Concentration'
+        else 'Low Concentration'
+    end as concentration_level,
+    
+    -- Price metrics
+    avg(f.total_fare) as avg_fare,
+    median(f.total_fare) as median_fare,
+    avg(case when f.any_rule_flag = 1 then f.total_fare else null end) as avg_flagged_fare,
+    
+    -- Distance metrics
+    avg(f.trip_dist) as avg_distance_miles,
+    
+    -- Estimated extra cost - now using pre-joined median fare
+    sum(case 
+        when f.any_rule_flag = 1 and fm.median_fare is not null then 
+            f.total_fare - fm.median_fare
+        else 0 
+    end) as total_extra_cost,
+    
+    -- Serving carriers list
+    array_agg(distinct f.carrier_code) as serving_carriers
+
+from route_parts r
+join FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features f
+    on r.route = f.route
+left join FLIGHT_PRICES.WALRUS_PUBLIC.seed_airport_geo og
+    on r.origin = og.iata_code
+left join FLIGHT_PRICES.WALRUS_PUBLIC.seed_airport_geo dg
+    on r.destination = dg.iata_code
+left join FLIGHT_PRICES.WALRUS_PUBLIC.int_route_competition rc
+    on r.route = rc.route
+left join flagged_with_median fm
+    on f.route = fm.route and f.carrier_code = fm.carrier_code
+group by 
+    r.route, 
+    r.origin, 
+    r.destination,
+    og.lat_deg, 
+    og.lon_deg, 
+    dg.lat_deg, 
+    dg.lon_deg,
+    rc.carrier_count,
+    rc.hhi
+        );
+[0m01:48:38.428360 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m01:48:38.429358 [debug] [Thread-4 (]: On model.fair_pricing_radar.mart_timeseries_metrics: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "node_id": "model.fair_pricing_radar.mart_timeseries_metrics"} */
+create or replace transient table FLIGHT_PRICES.WALRUS_PUBLIC.mart_timeseries_metrics
+         as
+        (
+
+with flagged_with_median as (
+    -- Join pricing features with route daily prices to get median fare
+    select
+        mpf.flight_date,
+        mpf.any_rule_flag,
+        mpf.total_fare,
+        mpf.r1_price_outlier,
+        mpf.r2_seat_scarcity,
+        mpf.r3_monopoly_premium,
+        rdp.median_fare
+    from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features mpf
+    left join FLIGHT_PRICES.WALRUS_PUBLIC.int_route_daily_prices rdp
+        on  rdp.route = mpf.route
+        and rdp.carrier_code = mpf.carrier_code
+        and rdp.dtf_bucket = mpf.dtf_bucket
+        and rdp.flight_date = mpf.flight_date
+)
+
+select
+    flight_date,
+    count(*) as total_bookings,
+    sum(any_rule_flag) as flagged_bookings,
+    100.0 * sum(any_rule_flag) / count(*) as pct_flagged,
+    
+    -- Average prices
+    avg(total_fare) as avg_total_fare,
+    median(total_fare) as median_total_fare,
+    avg(case when any_rule_flag = 1 then total_fare else null end) as avg_flagged_fare,
+    
+    -- Rule breakdown
+    sum(r1_price_outlier) as r1_flags,
+    sum(r2_seat_scarcity) as r2_flags,
+    sum(r3_monopoly_premium) as r3_flags,
+    
+    -- Extra cost calculation - now using pre-joined median fare
+    sum(case 
+        when any_rule_flag = 1 and median_fare is not null then 
+            total_fare - median_fare
+        else 0 
+    end) as daily_extra_cost
+
+from flagged_with_median
+group by flight_date
+order by flight_date
+        );
+[0m01:48:38.431352 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m01:48:38.434344 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m01:49:04.397871 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 25.964 seconds
+[0m01:49:04.418815 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4e5ac247-0bd3-4bc1-94e0-e214a5ac4b62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5527CD570>]}
+[0m01:49:04.419813 [info ] [Thread-4 (]: 4 of 4 OK created sql table model WALRUS_PUBLIC.mart_timeseries_metrics ........ [[32mSUCCESS 1[0m in 26.08s]
+[0m01:49:04.420810 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.mart_timeseries_metrics
+[0m01:52:36.385638 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 237.958 seconds
+[0m01:52:36.390625 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4e5ac247-0bd3-4bc1-94e0-e214a5ac4b62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F55FBDFD30>]}
+[0m01:52:36.391623 [info ] [Thread-1 (]: 1 of 4 OK created sql table model WALRUS_PUBLIC.mart_booking_window_analysis ... [[32mSUCCESS 1[0m in 238.05s]
+[0m01:52:36.392620 [debug] [Thread-1 (]: Finished running node model.fair_pricing_radar.mart_booking_window_analysis
+[0m02:02:39.626498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AFD2219300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AFD375A2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AFD375A110>]}
+
+
+============================== 02:02:39.630487 | eda8e0b2-f9d7-460e-8953-0a7e59b8bad9 ==============================
+[0m02:02:39.630487 [info ] [MainThread]: Running with dbt=1.9.4
+[0m02:02:39.631485 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Mattia\\.dbt', 'log_path': 'C:\\Users\\Mattia\\Business_Challenge\\fair_pricing_radar\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run --select mart_carrier_performance', 'send_anonymous_usage_stats': 'True'}
+[0m02:02:40.580943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'eda8e0b2-f9d7-460e-8953-0a7e59b8bad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AFD0197040>]}
+[0m02:02:40.639786 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'eda8e0b2-f9d7-460e-8953-0a7e59b8bad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AFDBF631F0>]}
+[0m02:02:40.641781 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m02:02:41.198292 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m02:02:41.496494 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m02:02:41.496494 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m02:02:41.631134 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'eda8e0b2-f9d7-460e-8953-0a7e59b8bad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AFDCA40250>]}
+[0m02:02:41.773752 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\manifest.json
+[0m02:02:41.776744 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\semantic_manifest.json
+[0m02:02:41.802675 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'eda8e0b2-f9d7-460e-8953-0a7e59b8bad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AFDCA1F190>]}
+[0m02:02:41.803672 [info ] [MainThread]: Found 20 models, 1 analysis, 3 seeds, 19 data tests, 1 source, 475 macros
+[0m02:02:41.804670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'eda8e0b2-f9d7-460e-8953-0a7e59b8bad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AFDCA1D480>]}
+[0m02:02:41.805667 [info ] [MainThread]: 
+[0m02:02:41.806664 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m02:02:41.807662 [info ] [MainThread]: 
+[0m02:02:41.808659 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m02:02:41.809656 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FLIGHT_PRICES'
+[0m02:02:41.956264 [debug] [ThreadPool]: Using snowflake connection "list_FLIGHT_PRICES"
+[0m02:02:41.957261 [debug] [ThreadPool]: On list_FLIGHT_PRICES: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "connection_name": "list_FLIGHT_PRICES"} */
+show terse schemas in database FLIGHT_PRICES
+    limit 10000
+[0m02:02:41.957261 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m02:02:46.809278 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 4.852 seconds
+[0m02:02:46.817257 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FLIGHT_PRICES_WALRUS_PUBLIC'
+[0m02:02:46.828228 [debug] [ThreadPool]: Using snowflake connection "list_FLIGHT_PRICES_WALRUS_PUBLIC"
+[0m02:02:46.828228 [debug] [ThreadPool]: On list_FLIGHT_PRICES_WALRUS_PUBLIC: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "connection_name": "list_FLIGHT_PRICES_WALRUS_PUBLIC"} */
+show objects in FLIGHT_PRICES.WALRUS_PUBLIC limit 10000;
+[0m02:02:46.829225 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m02:02:50.518353 [debug] [ThreadPool]: SQL status: SUCCESS 19 in 3.689 seconds
+[0m02:02:50.524337 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'eda8e0b2-f9d7-460e-8953-0a7e59b8bad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AFDCA5C640>]}
+[0m02:02:50.528327 [debug] [Thread-1 (]: Began running node model.fair_pricing_radar.mart_carrier_performance
+[0m02:02:50.529324 [info ] [Thread-1 (]: 1 of 1 START sql table model WALRUS_PUBLIC.mart_carrier_performance ............ [RUN]
+[0m02:02:50.530322 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.mart_carrier_performance'
+[0m02:02:50.530322 [debug] [Thread-1 (]: Began compiling node model.fair_pricing_radar.mart_carrier_performance
+[0m02:02:50.540295 [debug] [Thread-1 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_carrier_performance"
+[0m02:02:50.541292 [debug] [Thread-1 (]: Began executing node model.fair_pricing_radar.mart_carrier_performance
+[0m02:02:50.572209 [debug] [Thread-1 (]: Writing runtime sql for node "model.fair_pricing_radar.mart_carrier_performance"
+[0m02:02:50.576198 [debug] [Thread-1 (]: Using snowflake connection "model.fair_pricing_radar.mart_carrier_performance"
+[0m02:02:50.576198 [debug] [Thread-1 (]: On model.fair_pricing_radar.mart_carrier_performance: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "node_id": "model.fair_pricing_radar.mart_carrier_performance"} */
+create or replace transient table FLIGHT_PRICES.WALRUS_PUBLIC.mart_carrier_performance
+         as
+        (
+
+with flagged_with_median as (
+    -- Join pricing features with route daily prices to get median fare
+    select
+        f.carrier_code,
+        f.any_rule_flag,
+        f.total_fare,
+        f.r1_price_outlier,
+        f.r2_seat_scarcity,
+        f.r3_monopoly_premium,
+        f.route,
+        rdp.median_fare
+    from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features f
+    left join FLIGHT_PRICES.WALRUS_PUBLIC.int_route_daily_prices rdp
+        on  rdp.route = f.route
+        and rdp.carrier_code = f.carrier_code
+        and rdp.dtf_bucket = f.dtf_bucket
+        and rdp.flight_date = f.flight_date
+),
+
+route_competition_check as (
+    -- Get route competition data
+    select
+        f.route,
+        f.carrier_code,
+        rc.hhi
+    from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features f
+    left join FLIGHT_PRICES.WALRUS_PUBLIC.int_route_competition rc
+        on rc.route = f.route
+    group by f.route, f.carrier_code, rc.hhi
+)
+
+select
+    c.carrier_code,
+    c.carrier_name,
+    
+    -- Booking volumes
+    count(*) as total_bookings,
+    sum(f.any_rule_flag) as flagged_bookings,
+    100.0 * sum(f.any_rule_flag) / nullif(count(*), 0) as pct_flagged,
+    
+    -- Flag type breakdown
+    sum(f.r1_price_outlier) as r1_price_outlier_count,
+    sum(f.r2_seat_scarcity) as r2_seat_scarcity_count,
+    sum(f.r3_monopoly_premium) as r3_monopoly_premium_count,
+    
+    -- Percentage breakdown
+    100.0 * sum(f.r1_price_outlier) / nullif(count(*), 0) as pct_r1_outliers,
+    100.0 * sum(f.r2_seat_scarcity) / nullif(count(*), 0) as pct_r2_scarcity,
+    100.0 * sum(f.r3_monopoly_premium) / nullif(count(*), 0) as pct_r3_monopoly,
+    
+    -- Fare metrics
+    avg(f.total_fare) as avg_fare,
+    median(f.total_fare) as median_fare,
+    avg(case when f.any_rule_flag = 1 then f.total_fare else null end) as avg_flagged_fare,
+    
+    -- Extra cost total - now using pre-joined median fare
+    sum(case 
+        when f.any_rule_flag = 1 and fm.median_fare is not null then 
+            f.total_fare - fm.median_fare
+        else 0 
+    end) as total_extra_cost,
+    
+    -- Number of routes served
+    count(distinct f.route) as routes_served,
+    
+    -- Monopoly routes count
+    sum(case
+        when rc.hhi >= 0.8 then 1
+        else 0
+    end) as monopoly_routes_count
+
+from FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features f
+join FLIGHT_PRICES.WALRUS_PUBLIC.dim_carrier c
+    on f.carrier_code = c.carrier_code
+left join flagged_with_median fm
+    on f.carrier_code = fm.carrier_code and f.route = fm.route
+left join route_competition_check rc
+    on f.carrier_code = rc.carrier_code and f.route = rc.route
+group by c.carrier_code, c.carrier_name
+        );
+[0m02:02:50.577196 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m06:03:36.354967 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: None
+[0m06:03:36.382892 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 000630 (57014): Statement reached its statement or warehouse timeout of 14,440 second(s) and was canceled.
+[0m06:03:36.454700 [debug] [Thread-1 (]: Database Error in model mart_carrier_performance (models\marts\mart_carrier_performance.sql)
+  000630 (57014): Statement reached its statement or warehouse timeout of 14,440 second(s) and was canceled.
+  compiled code at target\run\fair_pricing_radar\models\marts\mart_carrier_performance.sql
+[0m06:03:36.622252 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'eda8e0b2-f9d7-460e-8953-0a7e59b8bad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AFDD2DFAF0>]}
+[0m06:03:36.632225 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model WALRUS_PUBLIC.mart_carrier_performance ... [[31mERROR[0m in 14445.93s]
+[0m06:03:36.661148 [debug] [Thread-1 (]: Finished running node model.fair_pricing_radar.mart_carrier_performance
+[0m06:03:36.665138 [debug] [Thread-7 (]: Marking all children of 'model.fair_pricing_radar.mart_carrier_performance' to be skipped because of status 'error'.  Reason: Database Error in model mart_carrier_performance (models\marts\mart_carrier_performance.sql)
+  000630 (57014): Statement reached its statement or warehouse timeout of 14,440 second(s) and was canceled.
+  compiled code at target\run\fair_pricing_radar\models\marts\mart_carrier_performance.sql.
+[0m06:03:36.685084 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m06:03:36.687079 [debug] [MainThread]: Connection 'list_FLIGHT_PRICES' was left open.
+[0m06:03:36.687079 [debug] [MainThread]: On list_FLIGHT_PRICES: Close
+[0m06:03:38.229950 [debug] [MainThread]: Connection 'list_FLIGHT_PRICES_WALRUS_PUBLIC' was left open.
+[0m06:03:38.230947 [debug] [MainThread]: On list_FLIGHT_PRICES_WALRUS_PUBLIC: Close
+[0m06:03:39.619232 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_carrier_performance' was left open.
+[0m06:03:39.620230 [debug] [MainThread]: On model.fair_pricing_radar.mart_carrier_performance: Close
+[0m06:03:39.968299 [info ] [MainThread]: 
+[0m06:03:39.969296 [info ] [MainThread]: Finished running 1 table model in 4 hours 0 minutes and 58.16 seconds (14458.16s).
+[0m06:03:39.970293 [debug] [MainThread]: Command end result
+[0m06:03:40.021157 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\manifest.json
+[0m06:03:40.078005 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\semantic_manifest.json
+[0m06:03:40.103935 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\run_results.json
+[0m06:03:40.103935 [info ] [MainThread]: 
+[0m06:03:40.104933 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m06:03:40.105931 [info ] [MainThread]: 
+[0m06:03:40.106928 [error] [MainThread]:   Database Error in model mart_carrier_performance (models\marts\mart_carrier_performance.sql)
+  000630 (57014): Statement reached its statement or warehouse timeout of 14,440 second(s) and was canceled.
+  compiled code at target\run\fair_pricing_radar\models\marts\mart_carrier_performance.sql
+[0m06:03:40.107925 [info ] [MainThread]: 
+[0m06:03:40.107925 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m06:03:40.110917 [debug] [MainThread]: Command `dbt run` failed at 06:03:40.110917 after 14460.56 seconds
+[0m06:03:40.111914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AFD2219300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AFDCA6C820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AFD22D44C0>]}
+[0m06:03:40.112912 [debug] [MainThread]: Flushing usage events
+[0m06:03:40.513838 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:28:58.649350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE026192D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE03B59CF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE03B59ED0>]}
+
+
+============================== 09:28:58.662316 | 90714278-f9b3-48d8-a8bf-9599c7312ac9 ==============================
+[0m09:28:58.662316 [info ] [MainThread]: Running with dbt=1.9.4
+[0m09:28:58.663313 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mattia\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Mattia\\Business_Challenge\\fair_pricing_radar\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run --select mart_route_map_data', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:29:04.140657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '90714278-f9b3-48d8-a8bf-9599c7312ac9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE00597010>]}
+[0m09:29:04.200497 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '90714278-f9b3-48d8-a8bf-9599c7312ac9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0C360460>]}
+[0m09:29:04.208475 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m09:29:04.884666 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m09:29:06.142301 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m09:29:06.143299 [debug] [MainThread]: Partial parsing: added file: fair_pricing_radar://models\marts\mart_route_map_data.sql
+[0m09:29:06.532257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '90714278-f9b3-48d8-a8bf-9599c7312ac9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0CF80130>]}
+[0m09:29:06.678865 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\manifest.json
+[0m09:29:06.682854 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\semantic_manifest.json
+[0m09:29:06.901270 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '90714278-f9b3-48d8-a8bf-9599c7312ac9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0CFB4220>]}
+[0m09:29:06.902268 [info ] [MainThread]: Found 21 models, 1 analysis, 3 seeds, 19 data tests, 1 source, 475 macros
+[0m09:29:06.903265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '90714278-f9b3-48d8-a8bf-9599c7312ac9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0CFB4670>]}
+[0m09:29:06.905259 [info ] [MainThread]: 
+[0m09:29:06.905259 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m09:29:06.906257 [info ] [MainThread]: 
+[0m09:29:06.907254 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m09:29:06.908252 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FLIGHT_PRICES'
+[0m09:29:09.343735 [debug] [ThreadPool]: Using snowflake connection "list_FLIGHT_PRICES"
+[0m09:29:09.343735 [debug] [ThreadPool]: On list_FLIGHT_PRICES: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "connection_name": "list_FLIGHT_PRICES"} */
+show terse schemas in database FLIGHT_PRICES
+    limit 10000
+[0m09:29:09.344733 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:29:17.131895 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 7.787 seconds
+[0m09:29:17.139874 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FLIGHT_PRICES_WALRUS_PUBLIC'
+[0m09:29:17.150844 [debug] [ThreadPool]: Using snowflake connection "list_FLIGHT_PRICES_WALRUS_PUBLIC"
+[0m09:29:17.151842 [debug] [ThreadPool]: On list_FLIGHT_PRICES_WALRUS_PUBLIC: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "connection_name": "list_FLIGHT_PRICES_WALRUS_PUBLIC"} */
+show objects in FLIGHT_PRICES.WALRUS_PUBLIC limit 10000;
+[0m09:29:17.151842 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:29:20.869893 [debug] [ThreadPool]: SQL status: SUCCESS 19 in 3.718 seconds
+[0m09:29:20.874880 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '90714278-f9b3-48d8-a8bf-9599c7312ac9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0CF82DA0>]}
+[0m09:29:20.882858 [debug] [Thread-1 (]: Began running node model.fair_pricing_radar.mart_route_map_data
+[0m09:29:20.883856 [info ] [Thread-1 (]: 1 of 1 START sql table model WALRUS_PUBLIC.mart_route_map_data ................. [RUN]
+[0m09:29:20.884854 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.mart_route_map_data'
+[0m09:29:20.885851 [debug] [Thread-1 (]: Began compiling node model.fair_pricing_radar.mart_route_map_data
+[0m09:29:20.893829 [debug] [Thread-1 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_route_map_data"
+[0m09:29:20.895824 [debug] [Thread-1 (]: Began executing node model.fair_pricing_radar.mart_route_map_data
+[0m09:29:20.926741 [debug] [Thread-1 (]: Writing runtime sql for node "model.fair_pricing_radar.mart_route_map_data"
+[0m09:29:20.929733 [debug] [Thread-1 (]: Using snowflake connection "model.fair_pricing_radar.mart_route_map_data"
+[0m09:29:20.930730 [debug] [Thread-1 (]: On model.fair_pricing_radar.mart_route_map_data: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "node_id": "model.fair_pricing_radar.mart_route_map_data"} */
+create or replace transient table FLIGHT_PRICES.WALRUS_PUBLIC.mart_route_map_data
+         as
+        (
+
+WITH route_metrics AS (
+    SELECT 
+        f.ROUTE,
+        SPLIT_PART(f.ROUTE, '-', 1) AS ORIGIN,
+        SPLIT_PART(f.ROUTE, '-', 2) AS DESTINATION,
+        COUNT(*) AS TOTAL_BOOKINGS,
+        SUM(CASE WHEN f.R1_PRICE_OUTLIER = 1 OR f.R2_SEAT_SCARCITY = 1 OR f.R3_MONOPOLY_PREMIUM = 1 
+            THEN 1 ELSE 0 END) AS FLAGGED_BOOKINGS,
+        ROUND(100 * SUM(CASE WHEN f.R1_PRICE_OUTLIER = 1 OR f.R2_SEAT_SCARCITY = 1 OR f.R3_MONOPOLY_PREMIUM = 1 
+            THEN 1 ELSE 0 END) / COUNT(*), 1) AS PCT_FLAGGED
+    FROM FLIGHT_PRICES.WALRUS_PUBLIC.mart_pricing_features f
+    GROUP BY f.ROUTE
+),
+route_comp AS (
+    SELECT 
+        r.ROUTE,
+        r.HHI,
+        CASE 
+            WHEN r.HHI >= 0.8 THEN 'High Concentration'
+            WHEN r.HHI >= 0.5 THEN 'Moderate Concentration'
+            ELSE 'Low Concentration'
+        END AS CONCENTRATION_LEVEL
+    FROM FLIGHT_PRICES.WALRUS_PUBLIC.int_route_competition r
+),
+airport_geo AS (
+    SELECT 
+        IATA_CODE,
+        LAT_DEG AS AIRPORT_LAT,
+        LON_DEG AS AIRPORT_LON
+    FROM FLIGHT_PRICES.WALRUS_PUBLIC.seed_airport_geo
+)
+SELECT 
+    m.ROUTE,
+    m.ORIGIN,
+    m.DESTINATION,
+    m.TOTAL_BOOKINGS,
+    m.FLAGGED_BOOKINGS,
+    m.PCT_FLAGGED,
+    c.HHI,
+    c.CONCENTRATION_LEVEL,
+    o.AIRPORT_LAT AS ORIGIN_LAT,
+    o.AIRPORT_LON AS ORIGIN_LON,
+    d.AIRPORT_LAT AS DESTINATION_LAT,
+    d.AIRPORT_LON AS DESTINATION_LON
+FROM route_metrics m
+LEFT JOIN route_comp c ON m.ROUTE = c.ROUTE
+LEFT JOIN airport_geo o ON m.ORIGIN = o.IATA_CODE
+LEFT JOIN airport_geo d ON m.DESTINATION = d.IATA_CODE
+WHERE o.AIRPORT_LAT IS NOT NULL 
+  AND o.AIRPORT_LON IS NOT NULL
+  AND d.AIRPORT_LAT IS NOT NULL 
+  AND d.AIRPORT_LON IS NOT NULL
+        );
+[0m09:29:20.931728 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m09:29:27.264782 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 6.333 seconds
+[0m09:29:27.286723 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '90714278-f9b3-48d8-a8bf-9599c7312ac9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0DA6B190>]}
+[0m09:29:27.287721 [info ] [Thread-1 (]: 1 of 1 OK created sql table model WALRUS_PUBLIC.mart_route_map_data ............ [[32mSUCCESS 1[0m in 6.40s]
+[0m09:29:27.288718 [debug] [Thread-1 (]: Finished running node model.fair_pricing_radar.mart_route_map_data
+[0m09:29:27.289715 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:29:27.290712 [debug] [MainThread]: Connection 'list_FLIGHT_PRICES' was left open.
+[0m09:29:27.290712 [debug] [MainThread]: On list_FLIGHT_PRICES: Close
+[0m09:29:27.639778 [debug] [MainThread]: Connection 'list_FLIGHT_PRICES_WALRUS_PUBLIC' was left open.
+[0m09:29:27.639778 [debug] [MainThread]: On list_FLIGHT_PRICES_WALRUS_PUBLIC: Close
+[0m09:29:27.971889 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_route_map_data' was left open.
+[0m09:29:27.972887 [debug] [MainThread]: On model.fair_pricing_radar.mart_route_map_data: Close
+[0m09:29:28.320955 [info ] [MainThread]: 
+[0m09:29:28.321953 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 21.41 seconds (21.41s).
+[0m09:29:28.322951 [debug] [MainThread]: Command end result
+[0m09:29:28.355862 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\manifest.json
+[0m09:29:28.358854 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\semantic_manifest.json
+[0m09:29:28.367830 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\run_results.json
+[0m09:29:28.368828 [info ] [MainThread]: 
+[0m09:29:28.369826 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m09:29:28.370823 [info ] [MainThread]: 
+[0m09:29:28.371820 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m09:29:28.372817 [debug] [MainThread]: Command `dbt run` succeeded at 09:29:28.372817 after 29.89 seconds
+[0m09:29:28.373814 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE026192D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE02652950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0DB0CAC0>]}
+[0m09:29:28.374812 [debug] [MainThread]: Flushing usage events
+[0m09:29:28.732853 [debug] [MainThread]: An error was encountered while trying to flush usage events
