@@ -1,23 +1,19 @@
 name: Deploy dbt docs
-
 on:
   push:
-    branches: [main]  # Change to your default branch if needed
+    branches: [main]
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: target
+          folder: fair_pricing_radar/target  # CHANGED THIS LINE
           branch: gh-pages
           clean: true
