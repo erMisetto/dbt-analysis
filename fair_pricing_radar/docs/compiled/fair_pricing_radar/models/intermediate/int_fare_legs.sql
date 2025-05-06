@@ -18,7 +18,7 @@ with bookings as (
 ), flattened as (
 
     /*
-     * FLATTEN explodes the arrays.  `f.index` is the 0-based position.
+     * FLATTEN explodes the arrays.  `f.index` is the 0-based position
      * For each position, pull the matching element from every array.
      */
     select
