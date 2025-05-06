@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table FLIGHT_PRICES.WALRUS_PUBLIC.seed_airport_geo (iata_code text,lat_deg float8,lon_deg float8)
+  ;
+    -- dbt seed --
+    
+            insert into FLIGHT_PRICES.WALRUS_PUBLIC.seed_airport_geo (iata_code, lat_deg, lon_deg) values
+            (%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s)
+        
+
+;
+  
