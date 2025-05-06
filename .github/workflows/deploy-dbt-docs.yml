@@ -1,9 +1,9 @@
-name: Deploy dbt Docs
+name: Deploy dbt docs
 
 on:
   push:
-    branches: [ main ]  # Change to your main branch name if different
-  workflow_dispatch:    # Allows manual triggering
+    branches: [main]  # Use your default branch name
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -12,10 +12,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Deploy directly to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: target  # Where your dbt docs are generated
-          branch: gh-pages  # Branch for GitHub Pages
-          clean: true  # Remove old files
-          token: ${{ secrets.GITHUB_TOKEN }}  # Auto-provided by GitHub
+          folder: target  # Your dbt docs location
+          branch: gh-pages
+          clean: true
