@@ -24918,3 +24918,1166 @@ WHERE o.AIRPORT_LAT IS NOT NULL
 [0m09:29:28.373814 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE026192D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE02652950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0DB0CAC0>]}
 [0m09:29:28.374812 [debug] [MainThread]: Flushing usage events
 [0m09:29:28.732853 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m08:51:53.253721 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002021A8192A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002021BF5A170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002021BF59F90>]}
+
+
+============================== 08:51:53.273667 | 9d565e98-1c21-4a98-bab4-7bd5c1cc3bf6 ==============================
+[0m08:51:53.273667 [info ] [MainThread]: Running with dbt=1.9.4
+[0m08:51:53.274665 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Mattia\\.dbt', 'log_path': 'C:\\Users\\Mattia\\Business_Challenge\\fair_pricing_radar\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m08:51:53.539954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9d565e98-1c21-4a98-bab4-7bd5c1cc3bf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002021BDC06D0>]}
+[0m08:51:53.790285 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m08:51:53.791283 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m08:51:53.793277 [debug] [MainThread]: Command `dbt deps` succeeded at 08:51:53.792280 after 0.64 seconds
+[0m08:51:53.793277 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002021A8192A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002021BEF67A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002021BFF1A50>]}
+[0m08:51:53.794275 [debug] [MainThread]: Flushing usage events
+[0m08:51:54.153314 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m08:53:06.437982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D54F8192D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D550F59BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D550F59DB0>]}
+
+
+============================== 08:53:06.441971 | 160b22f9-3d49-48f8-98c4-7f507332ad2e ==============================
+[0m08:53:06.441971 [info ] [MainThread]: Running with dbt=1.9.4
+[0m08:53:06.442969 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mattia\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\Mattia\\Business_Challenge\\fair_pricing_radar\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt docs generate', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m08:53:12.198574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '160b22f9-3d49-48f8-98c4-7f507332ad2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D5507F59F0>]}
+[0m08:53:12.259412 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '160b22f9-3d49-48f8-98c4-7f507332ad2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D559864580>]}
+[0m08:53:12.266393 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m08:53:12.930617 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m08:53:14.344834 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m08:53:14.345832 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m08:53:14.485458 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '160b22f9-3d49-48f8-98c4-7f507332ad2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D559865AE0>]}
+[0m08:53:14.554275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '160b22f9-3d49-48f8-98c4-7f507332ad2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D55A14DC90>]}
+[0m08:53:14.554275 [info ] [MainThread]: Found 21 models, 1 analysis, 3 seeds, 19 data tests, 1 source, 475 macros
+[0m08:53:14.555272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '160b22f9-3d49-48f8-98c4-7f507332ad2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D55A14DCF0>]}
+[0m08:53:14.558263 [info ] [MainThread]: 
+[0m08:53:14.559260 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m08:53:14.559260 [info ] [MainThread]: 
+[0m08:53:14.561256 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m08:53:14.570231 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FLIGHT_PRICES_WALRUS_PUBLIC'
+[0m08:53:17.118416 [debug] [ThreadPool]: Using snowflake connection "list_FLIGHT_PRICES_WALRUS_PUBLIC"
+[0m08:53:17.118416 [debug] [ThreadPool]: On list_FLIGHT_PRICES_WALRUS_PUBLIC: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "connection_name": "list_FLIGHT_PRICES_WALRUS_PUBLIC"} */
+show objects in FLIGHT_PRICES.WALRUS_PUBLIC limit 10000;
+[0m08:53:17.119413 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m08:53:35.101319 [debug] [ThreadPool]: SQL status: SUCCESS 20 in 17.982 seconds
+[0m08:53:35.107302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '160b22f9-3d49-48f8-98c4-7f507332ad2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D55A14EB60>]}
+[0m08:53:35.114284 [debug] [Thread-1 (]: Began running node analysis.fair_pricing_radar.outlier_distribution
+[0m08:53:35.114284 [debug] [Thread-2 (]: Began running node model.fair_pricing_radar.int_carrier_competition
+[0m08:53:35.115282 [debug] [Thread-3 (]: Began running node model.fair_pricing_radar.int_route_stats
+[0m08:53:35.115282 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.snap_carrier_marketshare
+[0m08:53:35.116279 [debug] [Thread-1 (]: Acquiring new snowflake connection 'analysis.fair_pricing_radar.outlier_distribution'
+[0m08:53:35.117276 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.int_carrier_competition'
+[0m08:53:35.117276 [debug] [Thread-3 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.int_route_stats'
+[0m08:53:35.118273 [debug] [Thread-4 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.snap_carrier_marketshare'
+[0m08:53:35.119271 [debug] [Thread-1 (]: Began compiling node analysis.fair_pricing_radar.outlier_distribution
+[0m08:53:35.119271 [debug] [Thread-2 (]: Began compiling node model.fair_pricing_radar.int_carrier_competition
+[0m08:53:35.120268 [debug] [Thread-3 (]: Began compiling node model.fair_pricing_radar.int_route_stats
+[0m08:53:35.120268 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.snap_carrier_marketshare
+[0m08:53:35.128247 [debug] [Thread-1 (]: Writing injected SQL for node "analysis.fair_pricing_radar.outlier_distribution"
+[0m08:53:35.130242 [debug] [Thread-2 (]: Writing injected SQL for node "model.fair_pricing_radar.int_carrier_competition"
+[0m08:53:35.132236 [debug] [Thread-3 (]: Writing injected SQL for node "model.fair_pricing_radar.int_route_stats"
+[0m08:53:35.134231 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.snap_carrier_marketshare"
+[0m08:53:35.135228 [debug] [Thread-1 (]: Began executing node analysis.fair_pricing_radar.outlier_distribution
+[0m08:53:35.136226 [debug] [Thread-2 (]: Began executing node model.fair_pricing_radar.int_carrier_competition
+[0m08:53:35.136226 [debug] [Thread-3 (]: Began executing node model.fair_pricing_radar.int_route_stats
+[0m08:53:35.137223 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.snap_carrier_marketshare
+[0m08:53:35.138220 [debug] [Thread-1 (]: Finished running node analysis.fair_pricing_radar.outlier_distribution
+[0m08:53:35.139218 [debug] [Thread-2 (]: Finished running node model.fair_pricing_radar.int_carrier_competition
+[0m08:53:35.140215 [debug] [Thread-3 (]: Finished running node model.fair_pricing_radar.int_route_stats
+[0m08:53:35.141212 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.snap_carrier_marketshare
+[0m08:53:35.141212 [debug] [Thread-1 (]: Began running node seed.fair_pricing_radar.carrier_mapping
+[0m08:53:35.142209 [debug] [Thread-2 (]: Began running node seed.fair_pricing_radar.seed_airport_geo
+[0m08:53:35.143207 [debug] [Thread-3 (]: Began running node seed.fair_pricing_radar.seed_fare_bucket_map
+[0m08:53:35.143207 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly analysis.fair_pricing_radar.outlier_distribution, now seed.fair_pricing_radar.carrier_mapping)
+[0m08:53:35.144204 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_carrier_competition, now seed.fair_pricing_radar.seed_airport_geo)
+[0m08:53:35.145202 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_route_stats, now seed.fair_pricing_radar.seed_fare_bucket_map)
+[0m08:53:35.145202 [debug] [Thread-1 (]: Began compiling node seed.fair_pricing_radar.carrier_mapping
+[0m08:53:35.146199 [debug] [Thread-2 (]: Began compiling node seed.fair_pricing_radar.seed_airport_geo
+[0m08:53:35.146199 [debug] [Thread-3 (]: Began compiling node seed.fair_pricing_radar.seed_fare_bucket_map
+[0m08:53:35.149191 [debug] [Thread-1 (]: Began executing node seed.fair_pricing_radar.carrier_mapping
+[0m08:53:35.151185 [debug] [Thread-2 (]: Began executing node seed.fair_pricing_radar.seed_airport_geo
+[0m08:53:35.154177 [debug] [Thread-3 (]: Began executing node seed.fair_pricing_radar.seed_fare_bucket_map
+[0m08:53:35.155175 [debug] [Thread-1 (]: Finished running node seed.fair_pricing_radar.carrier_mapping
+[0m08:53:35.156172 [debug] [Thread-2 (]: Finished running node seed.fair_pricing_radar.seed_airport_geo
+[0m08:53:35.157169 [debug] [Thread-3 (]: Finished running node seed.fair_pricing_radar.seed_fare_bucket_map
+[0m08:53:35.158167 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.dim_carrier
+[0m08:53:35.158167 [debug] [Thread-1 (]: Began running node test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e
+[0m08:53:35.159164 [debug] [Thread-2 (]: Began running node test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111
+[0m08:53:35.159164 [debug] [Thread-3 (]: Began running node test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35
+[0m08:53:35.160161 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.snap_carrier_marketshare, now model.fair_pricing_radar.dim_carrier)
+[0m08:53:35.161159 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly seed.fair_pricing_radar.carrier_mapping, now test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e)
+[0m08:53:35.161159 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly seed.fair_pricing_radar.seed_airport_geo, now test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111)
+[0m08:53:35.162157 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly seed.fair_pricing_radar.seed_fare_bucket_map, now test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35)
+[0m08:53:35.162157 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.dim_carrier
+[0m08:53:35.163153 [debug] [Thread-1 (]: Began compiling node test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e
+[0m08:53:35.164151 [debug] [Thread-2 (]: Began compiling node test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111
+[0m08:53:35.164151 [debug] [Thread-3 (]: Began compiling node test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35
+[0m08:53:35.167143 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.dim_carrier"
+[0m08:53:35.179111 [debug] [Thread-1 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e"
+[0m08:53:35.183100 [debug] [Thread-2 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111"
+[0m08:53:35.190081 [debug] [Thread-3 (]: Writing injected SQL for node "test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35"
+[0m08:53:35.191079 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.dim_carrier
+[0m08:53:35.192076 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.dim_carrier
+[0m08:53:35.193073 [debug] [Thread-1 (]: Began executing node test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e
+[0m08:53:35.194071 [debug] [Thread-4 (]: Began running node test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a
+[0m08:53:35.194071 [debug] [Thread-2 (]: Began executing node test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111
+[0m08:53:35.195068 [debug] [Thread-1 (]: Finished running node test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e
+[0m08:53:35.196066 [debug] [Thread-3 (]: Began executing node test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35
+[0m08:53:35.196066 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.dim_carrier, now test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a)
+[0m08:53:35.197063 [debug] [Thread-2 (]: Finished running node test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111
+[0m08:53:35.198060 [debug] [Thread-1 (]: Began running node test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5
+[0m08:53:35.199058 [debug] [Thread-3 (]: Finished running node test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35
+[0m08:53:35.200055 [debug] [Thread-4 (]: Began compiling node test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a
+[0m08:53:35.200055 [debug] [Thread-2 (]: Began running node test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12
+[0m08:53:35.201053 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e, now test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5)
+[0m08:53:35.202049 [debug] [Thread-3 (]: Began running node test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6
+[0m08:53:35.206039 [debug] [Thread-4 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a"
+[0m08:53:35.207036 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111, now test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12)
+[0m08:53:35.207036 [debug] [Thread-1 (]: Began compiling node test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5
+[0m08:53:35.208033 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35, now test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6)
+[0m08:53:35.209031 [debug] [Thread-2 (]: Began compiling node test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12
+[0m08:53:35.214017 [debug] [Thread-1 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5"
+[0m08:53:35.215015 [debug] [Thread-4 (]: Began executing node test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a
+[0m08:53:35.215015 [debug] [Thread-3 (]: Began compiling node test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6
+[0m08:53:35.220001 [debug] [Thread-2 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12"
+[0m08:53:35.220999 [debug] [Thread-4 (]: Finished running node test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a
+[0m08:53:35.220999 [debug] [Thread-1 (]: Began executing node test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5
+[0m08:53:35.224988 [debug] [Thread-3 (]: Writing injected SQL for node "test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6"
+[0m08:53:35.225985 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.stg_fare_searches
+[0m08:53:35.226983 [debug] [Thread-2 (]: Began executing node test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12
+[0m08:53:35.227981 [debug] [Thread-1 (]: Finished running node test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5
+[0m08:53:35.228977 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a, now model.fair_pricing_radar.stg_fare_searches)
+[0m08:53:35.229975 [debug] [Thread-2 (]: Finished running node test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12
+[0m08:53:35.230972 [debug] [Thread-3 (]: Began executing node test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6
+[0m08:53:35.230972 [debug] [Thread-1 (]: Began running node test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29
+[0m08:53:35.231969 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.stg_fare_searches
+[0m08:53:35.231969 [debug] [Thread-2 (]: Began running node test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a
+[0m08:53:35.232967 [debug] [Thread-3 (]: Finished running node test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6
+[0m08:53:35.233964 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5, now test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29)
+[0m08:53:35.238950 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.stg_fare_searches"
+[0m08:53:35.239948 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12, now test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a)
+[0m08:53:35.239948 [debug] [Thread-3 (]: Began running node test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60
+[0m08:53:35.240945 [debug] [Thread-1 (]: Began compiling node test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29
+[0m08:53:35.241942 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.stg_fare_searches
+[0m08:53:35.242941 [debug] [Thread-2 (]: Began compiling node test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a
+[0m08:53:35.242941 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6, now test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60)
+[0m08:53:35.251916 [debug] [Thread-1 (]: Writing injected SQL for node "test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29"
+[0m08:53:35.253911 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.stg_fare_searches
+[0m08:53:35.257900 [debug] [Thread-2 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a"
+[0m08:53:35.257900 [debug] [Thread-3 (]: Began compiling node test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60
+[0m08:53:35.258897 [debug] [Thread-4 (]: Began running node test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889
+[0m08:53:35.260892 [debug] [Thread-1 (]: Began executing node test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29
+[0m08:53:35.260892 [debug] [Thread-2 (]: Began executing node test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a
+[0m08:53:35.265879 [debug] [Thread-3 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60"
+[0m08:53:35.266876 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.stg_fare_searches, now test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889)
+[0m08:53:35.267873 [debug] [Thread-1 (]: Finished running node test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29
+[0m08:53:35.268871 [debug] [Thread-2 (]: Finished running node test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a
+[0m08:53:35.269868 [debug] [Thread-4 (]: Began compiling node test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889
+[0m08:53:35.269868 [debug] [Thread-3 (]: Began executing node test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60
+[0m08:53:35.270865 [debug] [Thread-1 (]: Began running node model.fair_pricing_radar.int_fare_legs
+[0m08:53:35.270865 [debug] [Thread-2 (]: Began running node model.fair_pricing_radar.int_route_competition
+[0m08:53:35.274855 [debug] [Thread-4 (]: Writing injected SQL for node "test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889"
+[0m08:53:35.275852 [debug] [Thread-3 (]: Finished running node test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60
+[0m08:53:35.276850 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29, now model.fair_pricing_radar.int_fare_legs)
+[0m08:53:35.277847 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a, now model.fair_pricing_radar.int_route_competition)
+[0m08:53:35.278844 [debug] [Thread-3 (]: Began running node model.fair_pricing_radar.int_route_daily_prices
+[0m08:53:35.279842 [debug] [Thread-1 (]: Began compiling node model.fair_pricing_radar.int_fare_legs
+[0m08:53:35.279842 [debug] [Thread-4 (]: Began executing node test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889
+[0m08:53:35.280839 [debug] [Thread-2 (]: Began compiling node model.fair_pricing_radar.int_route_competition
+[0m08:53:35.280839 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60, now model.fair_pricing_radar.int_route_daily_prices)
+[0m08:53:35.284828 [debug] [Thread-1 (]: Writing injected SQL for node "model.fair_pricing_radar.int_fare_legs"
+[0m08:53:35.285825 [debug] [Thread-4 (]: Finished running node test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889
+[0m08:53:35.288817 [debug] [Thread-2 (]: Writing injected SQL for node "model.fair_pricing_radar.int_route_competition"
+[0m08:53:35.289815 [debug] [Thread-3 (]: Began compiling node model.fair_pricing_radar.int_route_daily_prices
+[0m08:53:35.290812 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.stg_route_stats
+[0m08:53:35.294801 [debug] [Thread-3 (]: Writing injected SQL for node "model.fair_pricing_radar.int_route_daily_prices"
+[0m08:53:35.294801 [debug] [Thread-1 (]: Began executing node model.fair_pricing_radar.int_fare_legs
+[0m08:53:35.295799 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889, now model.fair_pricing_radar.stg_route_stats)
+[0m08:53:35.296797 [debug] [Thread-2 (]: Began executing node model.fair_pricing_radar.int_route_competition
+[0m08:53:35.297794 [debug] [Thread-1 (]: Finished running node model.fair_pricing_radar.int_fare_legs
+[0m08:53:35.297794 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.stg_route_stats
+[0m08:53:35.298791 [debug] [Thread-3 (]: Began executing node model.fair_pricing_radar.int_route_daily_prices
+[0m08:53:35.299789 [debug] [Thread-2 (]: Finished running node model.fair_pricing_radar.int_route_competition
+[0m08:53:35.299789 [debug] [Thread-1 (]: Began running node test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d
+[0m08:53:35.303777 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.stg_route_stats"
+[0m08:53:35.304775 [debug] [Thread-3 (]: Finished running node model.fair_pricing_radar.int_route_daily_prices
+[0m08:53:35.304775 [debug] [Thread-2 (]: Began running node test.fair_pricing_radar.dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_.acc6ff2432
+[0m08:53:35.305772 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_fare_legs, now test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d)
+[0m08:53:35.306769 [debug] [Thread-3 (]: Began running node test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed
+[0m08:53:35.306769 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.stg_route_stats
+[0m08:53:35.307767 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_route_competition, now test.fair_pricing_radar.dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_.acc6ff2432)
+[0m08:53:35.308765 [debug] [Thread-1 (]: Began compiling node test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d
+[0m08:53:35.309762 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_route_daily_prices, now test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed)
+[0m08:53:35.309762 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.stg_route_stats
+[0m08:53:35.310759 [debug] [Thread-2 (]: Began compiling node test.fair_pricing_radar.dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_.acc6ff2432
+[0m08:53:35.316743 [debug] [Thread-1 (]: Writing injected SQL for node "test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d"
+[0m08:53:35.317740 [debug] [Thread-3 (]: Began compiling node test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed
+[0m08:53:35.317740 [debug] [Thread-4 (]: Began running node test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a
+[0m08:53:35.328711 [debug] [Thread-3 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed"
+[0m08:53:35.329708 [debug] [Thread-1 (]: Began executing node test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d
+[0m08:53:35.329708 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.stg_route_stats, now test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a)
+[0m08:53:35.331703 [debug] [Thread-1 (]: Finished running node test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d
+[0m08:53:35.331703 [debug] [Thread-3 (]: Began executing node test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed
+[0m08:53:35.332701 [debug] [Thread-4 (]: Began compiling node test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a
+[0m08:53:35.333698 [debug] [Thread-1 (]: Began running node test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a
+[0m08:53:35.334695 [debug] [Thread-3 (]: Finished running node test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed
+[0m08:53:35.339682 [debug] [Thread-4 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a"
+[0m08:53:35.340680 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d, now test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a)
+[0m08:53:35.340680 [debug] [Thread-3 (]: Began running node test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f
+[0m08:53:35.341676 [debug] [Thread-1 (]: Began compiling node test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a
+[0m08:53:35.342674 [debug] [Thread-4 (]: Began executing node test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a
+[0m08:53:35.343671 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed, now test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f)
+[0m08:53:35.347660 [debug] [Thread-1 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a"
+[0m08:53:35.348657 [debug] [Thread-4 (]: Finished running node test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a
+[0m08:53:35.349655 [debug] [Thread-3 (]: Began compiling node test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f
+[0m08:53:35.350652 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.int_route_fare_per_mi_stats
+[0m08:53:35.351650 [debug] [Thread-1 (]: Began executing node test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a
+[0m08:53:35.355639 [debug] [Thread-3 (]: Writing injected SQL for node "test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f"
+[0m08:53:35.356636 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a, now model.fair_pricing_radar.int_route_fare_per_mi_stats)
+[0m08:53:35.357634 [debug] [Thread-1 (]: Finished running node test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a
+[0m08:53:35.358631 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.int_route_fare_per_mi_stats
+[0m08:53:35.359628 [debug] [Thread-3 (]: Began executing node test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f
+[0m08:53:35.360626 [debug] [Thread-1 (]: Began running node model.fair_pricing_radar.int_rules_r1_r2_r3
+[0m08:53:35.364615 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.int_route_fare_per_mi_stats"
+[0m08:53:35.365612 [debug] [Thread-3 (]: Finished running node test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f
+[0m08:53:35.366610 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a, now model.fair_pricing_radar.int_rules_r1_r2_r3)
+[0m08:53:35.367607 [debug] [Thread-3 (]: Began running node model.fair_pricing_radar.mart_pricing_features
+[0m08:53:35.367607 [debug] [Thread-1 (]: Began compiling node model.fair_pricing_radar.int_rules_r1_r2_r3
+[0m08:53:35.368604 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.int_route_fare_per_mi_stats
+[0m08:53:35.369602 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f, now model.fair_pricing_radar.mart_pricing_features)
+[0m08:53:35.376582 [debug] [Thread-1 (]: Writing injected SQL for node "model.fair_pricing_radar.int_rules_r1_r2_r3"
+[0m08:53:35.377580 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.int_route_fare_per_mi_stats
+[0m08:53:35.377580 [debug] [Thread-3 (]: Began compiling node model.fair_pricing_radar.mart_pricing_features
+[0m08:53:35.378578 [debug] [Thread-4 (]: Began running node test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8
+[0m08:53:35.379575 [debug] [Thread-1 (]: Began executing node model.fair_pricing_radar.int_rules_r1_r2_r3
+[0m08:53:35.386557 [debug] [Thread-3 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_pricing_features"
+[0m08:53:35.387554 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_route_fare_per_mi_stats, now test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8)
+[0m08:53:35.388551 [debug] [Thread-1 (]: Finished running node model.fair_pricing_radar.int_rules_r1_r2_r3
+[0m08:53:35.389549 [debug] [Thread-4 (]: Began compiling node test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8
+[0m08:53:35.390546 [debug] [Thread-1 (]: Began running node test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5
+[0m08:53:35.390546 [debug] [Thread-3 (]: Began executing node model.fair_pricing_radar.mart_pricing_features
+[0m08:53:35.395532 [debug] [Thread-4 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8"
+[0m08:53:35.396529 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_rules_r1_r2_r3, now test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5)
+[0m08:53:35.397527 [debug] [Thread-3 (]: Finished running node model.fair_pricing_radar.mart_pricing_features
+[0m08:53:35.398524 [debug] [Thread-1 (]: Began compiling node test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5
+[0m08:53:35.399521 [debug] [Thread-4 (]: Began executing node test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8
+[0m08:53:35.400519 [debug] [Thread-3 (]: Began running node model.fair_pricing_radar.int_flagged_extra_costs
+[0m08:53:35.404508 [debug] [Thread-1 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5"
+[0m08:53:35.406503 [debug] [Thread-4 (]: Finished running node test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8
+[0m08:53:35.406503 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.mart_pricing_features, now model.fair_pricing_radar.int_flagged_extra_costs)
+[0m08:53:35.407500 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.mart_booking_window_analysis
+[0m08:53:35.408497 [debug] [Thread-1 (]: Began executing node test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5
+[0m08:53:35.408497 [debug] [Thread-3 (]: Began compiling node model.fair_pricing_radar.int_flagged_extra_costs
+[0m08:53:35.409495 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8, now model.fair_pricing_radar.mart_booking_window_analysis)
+[0m08:53:35.410492 [debug] [Thread-1 (]: Finished running node test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5
+[0m08:53:35.414481 [debug] [Thread-3 (]: Writing injected SQL for node "model.fair_pricing_radar.int_flagged_extra_costs"
+[0m08:53:35.415479 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.mart_booking_window_analysis
+[0m08:53:35.416476 [debug] [Thread-1 (]: Began running node model.fair_pricing_radar.mart_carrier_performance
+[0m08:53:35.420465 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_booking_window_analysis"
+[0m08:53:35.421463 [debug] [Thread-3 (]: Began executing node model.fair_pricing_radar.int_flagged_extra_costs
+[0m08:53:35.421463 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5, now model.fair_pricing_radar.mart_carrier_performance)
+[0m08:53:35.423458 [debug] [Thread-3 (]: Finished running node model.fair_pricing_radar.int_flagged_extra_costs
+[0m08:53:35.424455 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.mart_booking_window_analysis
+[0m08:53:35.424455 [debug] [Thread-1 (]: Began compiling node model.fair_pricing_radar.mart_carrier_performance
+[0m08:53:35.425452 [debug] [Thread-3 (]: Began running node model.fair_pricing_radar.mart_pricing_alerts
+[0m08:53:35.426449 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.mart_booking_window_analysis
+[0m08:53:35.427447 [debug] [Thread-2 (]: Compilation Error in test dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_ (models\schema.yml)
+  'dbt_utils' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+[0m08:53:35.432433 [debug] [Thread-1 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_carrier_performance"
+[0m08:53:35.432433 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_flagged_extra_costs, now model.fair_pricing_radar.mart_pricing_alerts)
+[0m08:53:35.433430 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.mart_route_map_data
+[0m08:53:35.434428 [debug] [Thread-2 (]: Finished running node test.fair_pricing_radar.dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_.acc6ff2432
+[0m08:53:35.434428 [debug] [Thread-3 (]: Began compiling node model.fair_pricing_radar.mart_pricing_alerts
+[0m08:53:35.435425 [debug] [Thread-1 (]: Began executing node model.fair_pricing_radar.mart_carrier_performance
+[0m08:53:35.436423 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.mart_booking_window_analysis, now model.fair_pricing_radar.mart_route_map_data)
+[0m08:53:35.437420 [debug] [Thread-2 (]: Began running node model.fair_pricing_radar.mart_route_performance
+[0m08:53:35.437420 [debug] [Thread-7 (]: Marking all children of 'test.fair_pricing_radar.dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_.acc6ff2432' to be skipped because of status 'error'.  Reason: Compilation Error in test dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_ (models\schema.yml)
+  'dbt_utils' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps"..
+[0m08:53:35.442407 [debug] [Thread-3 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_pricing_alerts"
+[0m08:53:35.443404 [debug] [Thread-1 (]: Finished running node model.fair_pricing_radar.mart_carrier_performance
+[0m08:53:35.443404 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.mart_route_map_data
+[0m08:53:35.444401 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_.acc6ff2432, now model.fair_pricing_radar.mart_route_performance)
+[0m08:53:35.445399 [debug] [Thread-1 (]: Began running node model.fair_pricing_radar.mart_timeseries_metrics
+[0m08:53:35.449388 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_route_map_data"
+[0m08:53:35.450385 [debug] [Thread-3 (]: Began executing node model.fair_pricing_radar.mart_pricing_alerts
+[0m08:53:35.451383 [debug] [Thread-2 (]: Began compiling node model.fair_pricing_radar.mart_route_performance
+[0m08:53:35.451383 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.mart_carrier_performance, now model.fair_pricing_radar.mart_timeseries_metrics)
+[0m08:53:35.452380 [debug] [Thread-3 (]: Finished running node model.fair_pricing_radar.mart_pricing_alerts
+[0m08:53:35.457366 [debug] [Thread-2 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_route_performance"
+[0m08:53:35.458364 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.mart_route_map_data
+[0m08:53:35.459361 [debug] [Thread-1 (]: Began compiling node model.fair_pricing_radar.mart_timeseries_metrics
+[0m08:53:35.459361 [debug] [Thread-3 (]: Began running node model.fair_pricing_radar.mart_dashboard_kpis
+[0m08:53:35.460359 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.mart_route_map_data
+[0m08:53:35.461356 [debug] [Thread-2 (]: Began executing node model.fair_pricing_radar.mart_route_performance
+[0m08:53:35.465345 [debug] [Thread-1 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_timeseries_metrics"
+[0m08:53:35.465345 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.mart_pricing_alerts, now model.fair_pricing_radar.mart_dashboard_kpis)
+[0m08:53:35.466344 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.mart_extra_cost_summary
+[0m08:53:35.467341 [debug] [Thread-2 (]: Finished running node model.fair_pricing_radar.mart_route_performance
+[0m08:53:35.468337 [debug] [Thread-3 (]: Began compiling node model.fair_pricing_radar.mart_dashboard_kpis
+[0m08:53:35.469335 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.mart_route_map_data, now model.fair_pricing_radar.mart_extra_cost_summary)
+[0m08:53:35.469335 [debug] [Thread-1 (]: Began executing node model.fair_pricing_radar.mart_timeseries_metrics
+[0m08:53:35.473324 [debug] [Thread-3 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_dashboard_kpis"
+[0m08:53:35.474321 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.mart_extra_cost_summary
+[0m08:53:35.475319 [debug] [Thread-1 (]: Finished running node model.fair_pricing_radar.mart_timeseries_metrics
+[0m08:53:35.479308 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_extra_cost_summary"
+[0m08:53:35.479308 [debug] [Thread-3 (]: Began executing node model.fair_pricing_radar.mart_dashboard_kpis
+[0m08:53:35.481302 [debug] [Thread-3 (]: Finished running node model.fair_pricing_radar.mart_dashboard_kpis
+[0m08:53:35.481302 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.mart_extra_cost_summary
+[0m08:53:35.482300 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.mart_extra_cost_summary
+[0m08:53:35.483298 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m08:53:35.484295 [debug] [MainThread]: Connection 'list_FLIGHT_PRICES_WALRUS_PUBLIC' was left open.
+[0m08:53:35.484295 [debug] [MainThread]: On list_FLIGHT_PRICES_WALRUS_PUBLIC: Close
+[0m08:53:36.062747 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_timeseries_metrics' was properly closed.
+[0m08:53:36.062747 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_route_performance' was properly closed.
+[0m08:53:36.063745 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_dashboard_kpis' was properly closed.
+[0m08:53:36.063745 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_extra_cost_summary' was properly closed.
+[0m08:53:36.064742 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Compilation Error in test dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_ (models\schema.yml)
+    'dbt_utils' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+[0m08:53:36.066737 [debug] [MainThread]: Command `dbt docs generate` failed at 08:53:36.066737 after 29.71 seconds
+[0m08:53:36.066737 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D54F8192D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D55ABD8340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D55A14DBD0>]}
+[0m08:53:36.067734 [debug] [MainThread]: Flushing usage events
+[0m08:53:36.411814 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m08:55:24.017573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2C4F192A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2C6659EA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2C665A0B0>]}
+
+
+============================== 08:55:24.021562 | 91294603-3b5a-490f-a86d-0767682218b9 ==============================
+[0m08:55:24.021562 [info ] [MainThread]: Running with dbt=1.9.4
+[0m08:55:24.022559 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Mattia\\Business_Challenge\\fair_pricing_radar\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Mattia\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt deps', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m08:55:24.224020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '91294603-3b5a-490f-a86d-0767682218b9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2C4FD7430>]}
+[0m08:55:24.245962 [debug] [MainThread]: Set downloads directory='C:\Users\Mattia\AppData\Local\Temp\dbt-downloads-kbkbyo0b'
+[0m08:55:24.246959 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m08:55:24.301813 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m08:55:24.302811 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m08:55:24.325748 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m08:55:24.340708 [info ] [MainThread]: Updating lock file in file path: C:\Users\Mattia\Business_Challenge\fair_pricing_radar/package-lock.yml
+[0m08:55:24.349684 [debug] [MainThread]: Set downloads directory='C:\Users\Mattia\AppData\Local\Temp\dbt-downloads-krx00qg1'
+[0m08:55:24.353674 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m08:55:24.785518 [info ] [MainThread]: Installed from version 0.9.6
+[0m08:55:24.786517 [info ] [MainThread]: Updated version available: 1.3.0
+[0m08:55:24.787513 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '91294603-3b5a-490f-a86d-0767682218b9', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2C4FBAFB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2C6A56EC0>]}
+[0m08:55:24.788511 [info ] [MainThread]: 
+[0m08:55:24.788511 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m08:55:24.791503 [debug] [MainThread]: Command `dbt deps` succeeded at 08:55:24.791503 after 0.86 seconds
+[0m08:55:24.791503 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2C4F192A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2C4FBAFB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2C6A544C0>]}
+[0m08:55:24.792500 [debug] [MainThread]: Flushing usage events
+[0m08:55:25.133587 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m08:55:30.518186 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088DC19300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088F359BA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088F359DB0>]}
+
+
+============================== 08:55:30.522175 | 8354dcfe-81ca-4e77-966a-51f2835df5c7 ==============================
+[0m08:55:30.522175 [info ] [MainThread]: Running with dbt=1.9.4
+[0m08:55:30.523173 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Mattia\\Business_Challenge\\fair_pricing_radar\\logs', 'profiles_dir': 'C:\\Users\\Mattia\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt docs generate', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m08:55:31.519508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8354dcfe-81ca-4e77-966a-51f2835df5c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020897966B00>]}
+[0m08:55:31.582340 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8354dcfe-81ca-4e77-966a-51f2835df5c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088F32C250>]}
+[0m08:55:31.583337 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m08:55:32.207668 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m08:55:32.413118 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m08:55:32.414115 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8354dcfe-81ca-4e77-966a-51f2835df5c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088E9F1540>]}
+[0m08:55:35.527787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8354dcfe-81ca-4e77-966a-51f2835df5c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020898B71C60>]}
+[0m08:55:35.558705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8354dcfe-81ca-4e77-966a-51f2835df5c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020898C3E380>]}
+[0m08:55:35.558705 [info ] [MainThread]: Found 21 models, 1 analysis, 3 seeds, 19 data tests, 1 source, 672 macros
+[0m08:55:35.560700 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8354dcfe-81ca-4e77-966a-51f2835df5c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020898C3E320>]}
+[0m08:55:35.563691 [info ] [MainThread]: 
+[0m08:55:35.564689 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m08:55:35.564689 [info ] [MainThread]: 
+[0m08:55:35.566684 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m08:55:35.575660 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FLIGHT_PRICES_WALRUS_PUBLIC'
+[0m08:55:35.719275 [debug] [ThreadPool]: Using snowflake connection "list_FLIGHT_PRICES_WALRUS_PUBLIC"
+[0m08:55:35.720273 [debug] [ThreadPool]: On list_FLIGHT_PRICES_WALRUS_PUBLIC: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "connection_name": "list_FLIGHT_PRICES_WALRUS_PUBLIC"} */
+show objects in FLIGHT_PRICES.WALRUS_PUBLIC limit 10000;
+[0m08:55:35.720273 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m08:55:40.921362 [debug] [ThreadPool]: SQL status: SUCCESS 20 in 5.201 seconds
+[0m08:55:40.927345 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8354dcfe-81ca-4e77-966a-51f2835df5c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020898C3D3C0>]}
+[0m08:55:40.931335 [debug] [Thread-1 (]: Began running node analysis.fair_pricing_radar.outlier_distribution
+[0m08:55:40.932332 [debug] [Thread-2 (]: Began running node model.fair_pricing_radar.int_carrier_competition
+[0m08:55:40.932332 [debug] [Thread-3 (]: Began running node model.fair_pricing_radar.int_route_stats
+[0m08:55:40.933330 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.snap_carrier_marketshare
+[0m08:55:40.934327 [debug] [Thread-1 (]: Acquiring new snowflake connection 'analysis.fair_pricing_radar.outlier_distribution'
+[0m08:55:40.934327 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.int_carrier_competition'
+[0m08:55:40.935324 [debug] [Thread-3 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.int_route_stats'
+[0m08:55:40.936322 [debug] [Thread-4 (]: Acquiring new snowflake connection 'model.fair_pricing_radar.snap_carrier_marketshare'
+[0m08:55:40.936322 [debug] [Thread-1 (]: Began compiling node analysis.fair_pricing_radar.outlier_distribution
+[0m08:55:40.937319 [debug] [Thread-2 (]: Began compiling node model.fair_pricing_radar.int_carrier_competition
+[0m08:55:40.937319 [debug] [Thread-3 (]: Began compiling node model.fair_pricing_radar.int_route_stats
+[0m08:55:40.938316 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.snap_carrier_marketshare
+[0m08:55:40.946295 [debug] [Thread-1 (]: Writing injected SQL for node "analysis.fair_pricing_radar.outlier_distribution"
+[0m08:55:40.949287 [debug] [Thread-2 (]: Writing injected SQL for node "model.fair_pricing_radar.int_carrier_competition"
+[0m08:55:40.951282 [debug] [Thread-3 (]: Writing injected SQL for node "model.fair_pricing_radar.int_route_stats"
+[0m08:55:40.954273 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.snap_carrier_marketshare"
+[0m08:55:40.955271 [debug] [Thread-1 (]: Began executing node analysis.fair_pricing_radar.outlier_distribution
+[0m08:55:40.955271 [debug] [Thread-2 (]: Began executing node model.fair_pricing_radar.int_carrier_competition
+[0m08:55:40.956268 [debug] [Thread-3 (]: Began executing node model.fair_pricing_radar.int_route_stats
+[0m08:55:40.956268 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.snap_carrier_marketshare
+[0m08:55:40.957266 [debug] [Thread-1 (]: Finished running node analysis.fair_pricing_radar.outlier_distribution
+[0m08:55:40.958263 [debug] [Thread-2 (]: Finished running node model.fair_pricing_radar.int_carrier_competition
+[0m08:55:40.959260 [debug] [Thread-3 (]: Finished running node model.fair_pricing_radar.int_route_stats
+[0m08:55:40.960258 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.snap_carrier_marketshare
+[0m08:55:40.960258 [debug] [Thread-1 (]: Began running node seed.fair_pricing_radar.carrier_mapping
+[0m08:55:40.961255 [debug] [Thread-2 (]: Began running node seed.fair_pricing_radar.seed_airport_geo
+[0m08:55:40.962252 [debug] [Thread-3 (]: Began running node seed.fair_pricing_radar.seed_fare_bucket_map
+[0m08:55:40.962252 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly analysis.fair_pricing_radar.outlier_distribution, now seed.fair_pricing_radar.carrier_mapping)
+[0m08:55:40.963250 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_carrier_competition, now seed.fair_pricing_radar.seed_airport_geo)
+[0m08:55:40.964247 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_route_stats, now seed.fair_pricing_radar.seed_fare_bucket_map)
+[0m08:55:40.964247 [debug] [Thread-1 (]: Began compiling node seed.fair_pricing_radar.carrier_mapping
+[0m08:55:40.965244 [debug] [Thread-2 (]: Began compiling node seed.fair_pricing_radar.seed_airport_geo
+[0m08:55:40.966242 [debug] [Thread-3 (]: Began compiling node seed.fair_pricing_radar.seed_fare_bucket_map
+[0m08:55:40.968236 [debug] [Thread-1 (]: Began executing node seed.fair_pricing_radar.carrier_mapping
+[0m08:55:40.971229 [debug] [Thread-2 (]: Began executing node seed.fair_pricing_radar.seed_airport_geo
+[0m08:55:40.974220 [debug] [Thread-3 (]: Began executing node seed.fair_pricing_radar.seed_fare_bucket_map
+[0m08:55:40.975218 [debug] [Thread-1 (]: Finished running node seed.fair_pricing_radar.carrier_mapping
+[0m08:55:40.976216 [debug] [Thread-2 (]: Finished running node seed.fair_pricing_radar.seed_airport_geo
+[0m08:55:40.977212 [debug] [Thread-3 (]: Finished running node seed.fair_pricing_radar.seed_fare_bucket_map
+[0m08:55:40.978210 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.dim_carrier
+[0m08:55:40.978210 [debug] [Thread-1 (]: Began running node test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e
+[0m08:55:40.979207 [debug] [Thread-2 (]: Began running node test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111
+[0m08:55:40.979207 [debug] [Thread-3 (]: Began running node test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35
+[0m08:55:40.980205 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.snap_carrier_marketshare, now model.fair_pricing_radar.dim_carrier)
+[0m08:55:40.981202 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly seed.fair_pricing_radar.carrier_mapping, now test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e)
+[0m08:55:40.981202 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly seed.fair_pricing_radar.seed_airport_geo, now test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111)
+[0m08:55:40.982199 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly seed.fair_pricing_radar.seed_fare_bucket_map, now test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35)
+[0m08:55:40.983196 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.dim_carrier
+[0m08:55:40.983196 [debug] [Thread-1 (]: Began compiling node test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e
+[0m08:55:40.984194 [debug] [Thread-2 (]: Began compiling node test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111
+[0m08:55:40.984194 [debug] [Thread-3 (]: Began compiling node test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35
+[0m08:55:40.988183 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.dim_carrier"
+[0m08:55:40.997159 [debug] [Thread-1 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e"
+[0m08:55:41.001149 [debug] [Thread-2 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111"
+[0m08:55:41.009127 [debug] [Thread-3 (]: Writing injected SQL for node "test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35"
+[0m08:55:41.010124 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.dim_carrier
+[0m08:55:41.011122 [debug] [Thread-1 (]: Began executing node test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e
+[0m08:55:41.012119 [debug] [Thread-2 (]: Began executing node test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111
+[0m08:55:41.013117 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.dim_carrier
+[0m08:55:41.014114 [debug] [Thread-3 (]: Began executing node test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35
+[0m08:55:41.014114 [debug] [Thread-1 (]: Finished running node test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e
+[0m08:55:41.015111 [debug] [Thread-2 (]: Finished running node test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111
+[0m08:55:41.016108 [debug] [Thread-4 (]: Began running node test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a
+[0m08:55:41.017106 [debug] [Thread-3 (]: Finished running node test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35
+[0m08:55:41.018103 [debug] [Thread-1 (]: Began running node test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5
+[0m08:55:41.019101 [debug] [Thread-2 (]: Began running node test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12
+[0m08:55:41.019101 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.dim_carrier, now test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a)
+[0m08:55:41.020098 [debug] [Thread-3 (]: Began running node test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6
+[0m08:55:41.020098 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_carrier_mapping_code.426c4bbd7e, now test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5)
+[0m08:55:41.021095 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_carrier_mapping_name.b71e317111, now test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12)
+[0m08:55:41.022092 [debug] [Thread-4 (]: Began compiling node test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a
+[0m08:55:41.022092 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.unique_carrier_mapping_code.9d7401ff35, now test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6)
+[0m08:55:41.023090 [debug] [Thread-1 (]: Began compiling node test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5
+[0m08:55:41.023090 [debug] [Thread-2 (]: Began compiling node test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12
+[0m08:55:41.028076 [debug] [Thread-4 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a"
+[0m08:55:41.029074 [debug] [Thread-3 (]: Began compiling node test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6
+[0m08:55:41.033063 [debug] [Thread-1 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5"
+[0m08:55:41.038049 [debug] [Thread-2 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12"
+[0m08:55:41.043036 [debug] [Thread-3 (]: Writing injected SQL for node "test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6"
+[0m08:55:41.044033 [debug] [Thread-4 (]: Began executing node test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a
+[0m08:55:41.045031 [debug] [Thread-1 (]: Began executing node test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5
+[0m08:55:41.046028 [debug] [Thread-2 (]: Began executing node test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12
+[0m08:55:41.047026 [debug] [Thread-4 (]: Finished running node test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a
+[0m08:55:41.047026 [debug] [Thread-3 (]: Began executing node test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6
+[0m08:55:41.048023 [debug] [Thread-1 (]: Finished running node test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5
+[0m08:55:41.049021 [debug] [Thread-2 (]: Finished running node test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12
+[0m08:55:41.050018 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.stg_fare_searches
+[0m08:55:41.051015 [debug] [Thread-3 (]: Finished running node test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6
+[0m08:55:41.051015 [debug] [Thread-1 (]: Began running node test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29
+[0m08:55:41.052012 [debug] [Thread-2 (]: Began running node test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a
+[0m08:55:41.052012 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_seed_airport_geo_iata_code.6ab15a9c6a, now model.fair_pricing_radar.stg_fare_searches)
+[0m08:55:41.053010 [debug] [Thread-3 (]: Began running node test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60
+[0m08:55:41.054007 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_seed_airport_geo_lat_deg.4ca3a116d5, now test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29)
+[0m08:55:41.054007 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_seed_airport_geo_lon_deg.642f414f12, now test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a)
+[0m08:55:41.055005 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.stg_fare_searches
+[0m08:55:41.056002 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.unique_seed_airport_geo_iata_code.e2b2ae51c6, now test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60)
+[0m08:55:41.056002 [debug] [Thread-1 (]: Began compiling node test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29
+[0m08:55:41.056999 [debug] [Thread-2 (]: Began compiling node test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a
+[0m08:55:41.062983 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.stg_fare_searches"
+[0m08:55:41.063980 [debug] [Thread-3 (]: Began compiling node test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60
+[0m08:55:41.068967 [debug] [Thread-1 (]: Writing injected SQL for node "test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29"
+[0m08:55:41.072957 [debug] [Thread-2 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a"
+[0m08:55:41.077943 [debug] [Thread-3 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60"
+[0m08:55:41.078941 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.stg_fare_searches
+[0m08:55:41.079938 [debug] [Thread-1 (]: Began executing node test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29
+[0m08:55:41.080935 [debug] [Thread-2 (]: Began executing node test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a
+[0m08:55:41.081933 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.stg_fare_searches
+[0m08:55:41.081933 [debug] [Thread-3 (]: Began executing node test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60
+[0m08:55:41.082931 [debug] [Thread-1 (]: Finished running node test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29
+[0m08:55:41.083927 [debug] [Thread-2 (]: Finished running node test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a
+[0m08:55:41.084925 [debug] [Thread-4 (]: Began running node test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889
+[0m08:55:41.085922 [debug] [Thread-3 (]: Finished running node test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60
+[0m08:55:41.085922 [debug] [Thread-1 (]: Began running node model.fair_pricing_radar.int_fare_legs
+[0m08:55:41.086919 [debug] [Thread-2 (]: Began running node model.fair_pricing_radar.int_route_competition
+[0m08:55:41.087916 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.stg_fare_searches, now test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889)
+[0m08:55:41.087916 [debug] [Thread-3 (]: Began running node model.fair_pricing_radar.int_route_daily_prices
+[0m08:55:41.088914 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.accepted_values_seed_fare_bucket_map_fare_bucket__prem_cabin__full_mid_econ__deep_disc_econ.2189445c29, now model.fair_pricing_radar.int_fare_legs)
+[0m08:55:41.088914 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_seed_fare_bucket_map_fare_bucket.b62e02d88a, now model.fair_pricing_radar.int_route_competition)
+[0m08:55:41.089911 [debug] [Thread-4 (]: Began compiling node test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889
+[0m08:55:41.090908 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_seed_fare_bucket_map_first_letter.af720a7b60, now model.fair_pricing_radar.int_route_daily_prices)
+[0m08:55:41.090908 [debug] [Thread-1 (]: Began compiling node model.fair_pricing_radar.int_fare_legs
+[0m08:55:41.091906 [debug] [Thread-2 (]: Began compiling node model.fair_pricing_radar.int_route_competition
+[0m08:55:41.095895 [debug] [Thread-4 (]: Writing injected SQL for node "test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889"
+[0m08:55:41.096892 [debug] [Thread-3 (]: Began compiling node model.fair_pricing_radar.int_route_daily_prices
+[0m08:55:41.100881 [debug] [Thread-1 (]: Writing injected SQL for node "model.fair_pricing_radar.int_fare_legs"
+[0m08:55:41.105868 [debug] [Thread-2 (]: Writing injected SQL for node "model.fair_pricing_radar.int_route_competition"
+[0m08:55:41.109858 [debug] [Thread-3 (]: Writing injected SQL for node "model.fair_pricing_radar.int_route_daily_prices"
+[0m08:55:41.110855 [debug] [Thread-4 (]: Began executing node test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889
+[0m08:55:41.111853 [debug] [Thread-1 (]: Began executing node model.fair_pricing_radar.int_fare_legs
+[0m08:55:41.112850 [debug] [Thread-2 (]: Began executing node model.fair_pricing_radar.int_route_competition
+[0m08:55:41.113847 [debug] [Thread-4 (]: Finished running node test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889
+[0m08:55:41.113847 [debug] [Thread-3 (]: Began executing node model.fair_pricing_radar.int_route_daily_prices
+[0m08:55:41.114845 [debug] [Thread-1 (]: Finished running node model.fair_pricing_radar.int_fare_legs
+[0m08:55:41.115842 [debug] [Thread-2 (]: Finished running node model.fair_pricing_radar.int_route_competition
+[0m08:55:41.116839 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.stg_route_stats
+[0m08:55:41.117836 [debug] [Thread-3 (]: Finished running node model.fair_pricing_radar.int_route_daily_prices
+[0m08:55:41.117836 [debug] [Thread-1 (]: Began running node test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d
+[0m08:55:41.118833 [debug] [Thread-2 (]: Began running node test.fair_pricing_radar.dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_.acc6ff2432
+[0m08:55:41.118833 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.unique_seed_fare_bucket_map_first_letter.bd7bc9e889, now model.fair_pricing_radar.stg_route_stats)
+[0m08:55:41.119831 [debug] [Thread-3 (]: Began running node test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed
+[0m08:55:41.119831 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_fare_legs, now test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d)
+[0m08:55:41.120828 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_route_competition, now test.fair_pricing_radar.dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_.acc6ff2432)
+[0m08:55:41.121826 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.stg_route_stats
+[0m08:55:41.121826 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_route_daily_prices, now test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed)
+[0m08:55:41.122823 [debug] [Thread-1 (]: Began compiling node test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d
+[0m08:55:41.123820 [debug] [Thread-2 (]: Began compiling node test.fair_pricing_radar.dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_.acc6ff2432
+[0m08:55:41.126812 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.stg_route_stats"
+[0m08:55:41.127810 [debug] [Thread-3 (]: Began compiling node test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed
+[0m08:55:41.131799 [debug] [Thread-1 (]: Writing injected SQL for node "test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d"
+[0m08:55:41.137783 [debug] [Thread-2 (]: Writing injected SQL for node "test.fair_pricing_radar.dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_.acc6ff2432"
+[0m08:55:41.143767 [debug] [Thread-3 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed"
+[0m08:55:41.144764 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.stg_route_stats
+[0m08:55:41.145762 [debug] [Thread-1 (]: Began executing node test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d
+[0m08:55:41.146759 [debug] [Thread-2 (]: Began executing node test.fair_pricing_radar.dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_.acc6ff2432
+[0m08:55:41.147757 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.stg_route_stats
+[0m08:55:41.147757 [debug] [Thread-3 (]: Began executing node test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed
+[0m08:55:41.148754 [debug] [Thread-1 (]: Finished running node test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d
+[0m08:55:41.149751 [debug] [Thread-2 (]: Finished running node test.fair_pricing_radar.dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_.acc6ff2432
+[0m08:55:41.149751 [debug] [Thread-4 (]: Began running node test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a
+[0m08:55:41.151746 [debug] [Thread-3 (]: Finished running node test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed
+[0m08:55:41.151746 [debug] [Thread-1 (]: Began running node test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a
+[0m08:55:41.152743 [debug] [Thread-2 (]: Began running node test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f
+[0m08:55:41.153740 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.stg_route_stats, now test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a)
+[0m08:55:41.153740 [debug] [Thread-3 (]: Began running node model.fair_pricing_radar.int_route_fare_per_mi_stats
+[0m08:55:41.154737 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.accepted_values_stg_fare_searches_seats_flag__sold_out__scarce__9plus.024ce89e0d, now test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a)
+[0m08:55:41.154737 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.dbt_utils_equal_rowcount_stg_fare_searches_ref_stg_fare_searches_.acc6ff2432, now test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f)
+[0m08:55:41.155735 [debug] [Thread-4 (]: Began compiling node test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a
+[0m08:55:41.155735 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_stg_fare_searches_legid.4bd74c9bed, now model.fair_pricing_radar.int_route_fare_per_mi_stats)
+[0m08:55:41.156733 [debug] [Thread-1 (]: Began compiling node test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a
+[0m08:55:41.157730 [debug] [Thread-2 (]: Began compiling node test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f
+[0m08:55:41.161719 [debug] [Thread-4 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a"
+[0m08:55:41.162716 [debug] [Thread-3 (]: Began compiling node model.fair_pricing_radar.int_route_fare_per_mi_stats
+[0m08:55:41.166705 [debug] [Thread-1 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a"
+[0m08:55:41.171692 [debug] [Thread-2 (]: Writing injected SQL for node "test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f"
+[0m08:55:41.175682 [debug] [Thread-3 (]: Writing injected SQL for node "model.fair_pricing_radar.int_route_fare_per_mi_stats"
+[0m08:55:41.176679 [debug] [Thread-4 (]: Began executing node test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a
+[0m08:55:41.177676 [debug] [Thread-1 (]: Began executing node test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a
+[0m08:55:41.178674 [debug] [Thread-2 (]: Began executing node test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f
+[0m08:55:41.178674 [debug] [Thread-3 (]: Began executing node model.fair_pricing_radar.int_route_fare_per_mi_stats
+[0m08:55:41.179671 [debug] [Thread-4 (]: Finished running node test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a
+[0m08:55:41.180668 [debug] [Thread-1 (]: Finished running node test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a
+[0m08:55:41.181665 [debug] [Thread-2 (]: Finished running node test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f
+[0m08:55:41.182663 [debug] [Thread-3 (]: Finished running node model.fair_pricing_radar.int_route_fare_per_mi_stats
+[0m08:55:41.183660 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.int_rules_r1_r2_r3
+[0m08:55:41.183660 [debug] [Thread-1 (]: Began running node model.fair_pricing_radar.mart_pricing_features
+[0m08:55:41.184657 [debug] [Thread-2 (]: Began running node test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8
+[0m08:55:41.184657 [debug] [Thread-3 (]: Began running node test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5
+[0m08:55:41.185655 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_stg_fare_searches_total_miles.d55d372e6a, now model.fair_pricing_radar.int_rules_r1_r2_r3)
+[0m08:55:41.186652 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_stg_fare_searches_usd_per_mi.c81ef7888a, now model.fair_pricing_radar.mart_pricing_features)
+[0m08:55:41.186652 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.unique_stg_fare_searches_legid.53eca1764f, now test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8)
+[0m08:55:41.187649 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_route_fare_per_mi_stats, now test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5)
+[0m08:55:41.188647 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.int_rules_r1_r2_r3
+[0m08:55:41.188647 [debug] [Thread-1 (]: Began compiling node model.fair_pricing_radar.mart_pricing_features
+[0m08:55:41.189644 [debug] [Thread-2 (]: Began compiling node test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8
+[0m08:55:41.189644 [debug] [Thread-3 (]: Began compiling node test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5
+[0m08:55:41.196626 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.int_rules_r1_r2_r3"
+[0m08:55:41.203607 [debug] [Thread-1 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_pricing_features"
+[0m08:55:41.208593 [debug] [Thread-2 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8"
+[0m08:55:41.213580 [debug] [Thread-3 (]: Writing injected SQL for node "test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5"
+[0m08:55:41.214577 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.int_rules_r1_r2_r3
+[0m08:55:41.214577 [debug] [Thread-1 (]: Began executing node model.fair_pricing_radar.mart_pricing_features
+[0m08:55:41.215575 [debug] [Thread-2 (]: Began executing node test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8
+[0m08:55:41.216572 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.int_rules_r1_r2_r3
+[0m08:55:41.217570 [debug] [Thread-3 (]: Began executing node test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5
+[0m08:55:41.218567 [debug] [Thread-1 (]: Finished running node model.fair_pricing_radar.mart_pricing_features
+[0m08:55:41.219564 [debug] [Thread-2 (]: Finished running node test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8
+[0m08:55:41.220561 [debug] [Thread-3 (]: Finished running node test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5
+[0m08:55:41.221559 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.int_flagged_extra_costs
+[0m08:55:41.221559 [debug] [Thread-1 (]: Began running node model.fair_pricing_radar.mart_booking_window_analysis
+[0m08:55:41.222557 [debug] [Thread-2 (]: Began running node model.fair_pricing_radar.mart_carrier_performance
+[0m08:55:41.222557 [debug] [Thread-3 (]: Began running node model.fair_pricing_radar.mart_pricing_alerts
+[0m08:55:41.223554 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_rules_r1_r2_r3, now model.fair_pricing_radar.int_flagged_extra_costs)
+[0m08:55:41.224551 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.mart_pricing_features, now model.fair_pricing_radar.mart_booking_window_analysis)
+[0m08:55:41.225549 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_stg_route_stats_fare_bucket.a67ef6bea8, now model.fair_pricing_radar.mart_carrier_performance)
+[0m08:55:41.225549 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.fair_pricing_radar.not_null_stg_route_stats_route.7d843619a5, now model.fair_pricing_radar.mart_pricing_alerts)
+[0m08:55:41.226546 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.int_flagged_extra_costs
+[0m08:55:41.226546 [debug] [Thread-1 (]: Began compiling node model.fair_pricing_radar.mart_booking_window_analysis
+[0m08:55:41.227543 [debug] [Thread-2 (]: Began compiling node model.fair_pricing_radar.mart_carrier_performance
+[0m08:55:41.228540 [debug] [Thread-3 (]: Began compiling node model.fair_pricing_radar.mart_pricing_alerts
+[0m08:55:41.232529 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.int_flagged_extra_costs"
+[0m08:55:41.236520 [debug] [Thread-1 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_booking_window_analysis"
+[0m08:55:41.241505 [debug] [Thread-2 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_carrier_performance"
+[0m08:55:41.245495 [debug] [Thread-3 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_pricing_alerts"
+[0m08:55:41.246492 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.int_flagged_extra_costs
+[0m08:55:41.247489 [debug] [Thread-1 (]: Began executing node model.fair_pricing_radar.mart_booking_window_analysis
+[0m08:55:41.248487 [debug] [Thread-2 (]: Began executing node model.fair_pricing_radar.mart_carrier_performance
+[0m08:55:41.249485 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.int_flagged_extra_costs
+[0m08:55:41.250482 [debug] [Thread-3 (]: Began executing node model.fair_pricing_radar.mart_pricing_alerts
+[0m08:55:41.251479 [debug] [Thread-1 (]: Finished running node model.fair_pricing_radar.mart_booking_window_analysis
+[0m08:55:41.252476 [debug] [Thread-2 (]: Finished running node model.fair_pricing_radar.mart_carrier_performance
+[0m08:55:41.252476 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.mart_route_map_data
+[0m08:55:41.254471 [debug] [Thread-3 (]: Finished running node model.fair_pricing_radar.mart_pricing_alerts
+[0m08:55:41.254471 [debug] [Thread-1 (]: Began running node model.fair_pricing_radar.mart_route_performance
+[0m08:55:41.255468 [debug] [Thread-2 (]: Began running node model.fair_pricing_radar.mart_timeseries_metrics
+[0m08:55:41.256465 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.int_flagged_extra_costs, now model.fair_pricing_radar.mart_route_map_data)
+[0m08:55:41.256465 [debug] [Thread-3 (]: Began running node model.fair_pricing_radar.mart_dashboard_kpis
+[0m08:55:41.257463 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.mart_booking_window_analysis, now model.fair_pricing_radar.mart_route_performance)
+[0m08:55:41.257463 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.mart_carrier_performance, now model.fair_pricing_radar.mart_timeseries_metrics)
+[0m08:55:41.258460 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.mart_route_map_data
+[0m08:55:41.259458 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.mart_pricing_alerts, now model.fair_pricing_radar.mart_dashboard_kpis)
+[0m08:55:41.259458 [debug] [Thread-1 (]: Began compiling node model.fair_pricing_radar.mart_route_performance
+[0m08:55:41.260455 [debug] [Thread-2 (]: Began compiling node model.fair_pricing_radar.mart_timeseries_metrics
+[0m08:55:41.264444 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_route_map_data"
+[0m08:55:41.265441 [debug] [Thread-3 (]: Began compiling node model.fair_pricing_radar.mart_dashboard_kpis
+[0m08:55:41.270428 [debug] [Thread-1 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_route_performance"
+[0m08:55:41.276412 [debug] [Thread-2 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_timeseries_metrics"
+[0m08:55:41.351212 [debug] [Thread-3 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_dashboard_kpis"
+[0m08:55:41.352211 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.mart_route_map_data
+[0m08:55:41.353207 [debug] [Thread-1 (]: Began executing node model.fair_pricing_radar.mart_route_performance
+[0m08:55:41.353207 [debug] [Thread-2 (]: Began executing node model.fair_pricing_radar.mart_timeseries_metrics
+[0m08:55:41.354205 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.mart_route_map_data
+[0m08:55:41.355203 [debug] [Thread-3 (]: Began executing node model.fair_pricing_radar.mart_dashboard_kpis
+[0m08:55:41.356199 [debug] [Thread-1 (]: Finished running node model.fair_pricing_radar.mart_route_performance
+[0m08:55:41.357197 [debug] [Thread-2 (]: Finished running node model.fair_pricing_radar.mart_timeseries_metrics
+[0m08:55:41.358194 [debug] [Thread-4 (]: Began running node model.fair_pricing_radar.mart_extra_cost_summary
+[0m08:55:41.359191 [debug] [Thread-3 (]: Finished running node model.fair_pricing_radar.mart_dashboard_kpis
+[0m08:55:41.360188 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.fair_pricing_radar.mart_route_map_data, now model.fair_pricing_radar.mart_extra_cost_summary)
+[0m08:55:41.361185 [debug] [Thread-4 (]: Began compiling node model.fair_pricing_radar.mart_extra_cost_summary
+[0m08:55:41.365175 [debug] [Thread-4 (]: Writing injected SQL for node "model.fair_pricing_radar.mart_extra_cost_summary"
+[0m08:55:41.366172 [debug] [Thread-4 (]: Began executing node model.fair_pricing_radar.mart_extra_cost_summary
+[0m08:55:41.367170 [debug] [Thread-4 (]: Finished running node model.fair_pricing_radar.mart_extra_cost_summary
+[0m08:55:41.368167 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m08:55:41.369164 [debug] [MainThread]: Connection 'list_FLIGHT_PRICES_WALRUS_PUBLIC' was left open.
+[0m08:55:41.369164 [debug] [MainThread]: On list_FLIGHT_PRICES_WALRUS_PUBLIC: Close
+[0m08:55:41.701276 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_route_performance' was properly closed.
+[0m08:55:41.702273 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_timeseries_metrics' was properly closed.
+[0m08:55:41.702273 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_dashboard_kpis' was properly closed.
+[0m08:55:41.703271 [debug] [MainThread]: Connection 'model.fair_pricing_radar.mart_extra_cost_summary' was properly closed.
+[0m08:55:41.710251 [debug] [MainThread]: Command end result
+[0m08:55:41.869825 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\manifest.json
+[0m08:55:41.884786 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\semantic_manifest.json
+[0m08:55:41.894758 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\run_results.json
+[0m08:55:42.200939 [debug] [MainThread]: Acquiring new snowflake connection 'generate_catalog'
+[0m08:55:42.200939 [info ] [MainThread]: Building catalog
+[0m08:55:42.215899 [debug] [ThreadPool]: Acquiring new snowflake connection 'FLIGHT_PRICES.information_schema'
+[0m08:55:42.243825 [debug] [ThreadPool]: Using snowflake connection "FLIGHT_PRICES.information_schema"
+[0m08:55:42.244822 [debug] [ThreadPool]: On FLIGHT_PRICES.information_schema: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "fair_pricing_radar", "target_name": "dev", "connection_name": "FLIGHT_PRICES.information_schema"} */
+with tables as (
+            select
+        table_catalog as "table_database",
+        table_schema as "table_schema",
+        table_name as "table_name",
+        case
+            when is_dynamic = 'YES' and table_type = 'BASE TABLE' THEN 'DYNAMIC TABLE'
+            else table_type
+        end as "table_type",
+        comment as "table_comment",
+
+        -- note: this is the _role_ that owns the table
+        table_owner as "table_owner",
+
+        'Clustering Key' as "stats:clustering_key:label",
+        clustering_key as "stats:clustering_key:value",
+        'The key used to cluster this table' as "stats:clustering_key:description",
+        (clustering_key is not null) as "stats:clustering_key:include",
+
+        'Row Count' as "stats:row_count:label",
+        row_count as "stats:row_count:value",
+        'An approximate count of rows in this table' as "stats:row_count:description",
+        (row_count is not null) as "stats:row_count:include",
+
+        'Approximate Size' as "stats:bytes:label",
+        bytes as "stats:bytes:value",
+        'Approximate size of the table as reported by Snowflake' as "stats:bytes:description",
+        (bytes is not null) as "stats:bytes:include",
+
+        'Last Modified' as "stats:last_modified:label",
+        to_varchar(convert_timezone('UTC', last_altered), 'yyyy-mm-dd HH24:MI'||'UTC') as "stats:last_modified:value",
+        'The timestamp for last update/change' as "stats:last_modified:description",
+        (last_altered is not null and table_type='BASE TABLE') as "stats:last_modified:include"
+    from FLIGHT_PRICES.INFORMATION_SCHEMA.tables
+            where (
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_fare_legs' and upper("table_name") = upper('int_fare_legs')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_pricing_alerts' and upper("table_name") = upper('mart_pricing_alerts')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'seed_airport_geo' and upper("table_name") = upper('seed_airport_geo')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'seed_fare_bucket_map' and upper("table_name") = upper('seed_fare_bucket_map')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_route_competition' and upper("table_name") = upper('int_route_competition')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_timeseries_metrics' and upper("table_name") = upper('mart_timeseries_metrics')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_route_daily_prices' and upper("table_name") = upper('int_route_daily_prices')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'stg_route_stats' and upper("table_name") = upper('stg_route_stats')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_dashboard_kpis' and upper("table_name") = upper('mart_dashboard_kpis')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_carrier_performance' and upper("table_name") = upper('mart_carrier_performance')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_pricing_features' and upper("table_name") = upper('mart_pricing_features')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_extra_cost_summary' and upper("table_name") = upper('mart_extra_cost_summary')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_route_map_data' and upper("table_name") = upper('mart_route_map_data')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_route_performance' and upper("table_name") = upper('mart_route_performance')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_flagged_extra_costs' and upper("table_name") = upper('int_flagged_extra_costs')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_booking_window_analysis' and upper("table_name") = upper('mart_booking_window_analysis')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'FLIGHT_PRICING_DATA' and upper("table_name") = upper('FLIGHT_PRICING_DATA')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'dim_carrier' and upper("table_name") = upper('dim_carrier')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'stg_fare_searches' and upper("table_name") = upper('stg_fare_searches')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_carrier_competition' and upper("table_name") = upper('int_carrier_competition')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_rules_r1_r2_r3' and upper("table_name") = upper('int_rules_r1_r2_r3')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_route_fare_per_mi_stats' and upper("table_name") = upper('int_route_fare_per_mi_stats')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_route_stats' and upper("table_name") = upper('int_route_stats')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'snap_carrier_marketshare' and upper("table_name") = upper('snap_carrier_marketshare')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'carrier_mapping' and upper("table_name") = upper('carrier_mapping')
+
+                )
+            )
+        ),
+        columns as (
+            select
+        table_catalog as "table_database",
+        table_schema as "table_schema",
+        table_name as "table_name",
+
+        column_name as "column_name",
+        ordinal_position as "column_index",
+        data_type as "column_type",
+        comment as "column_comment"
+    from FLIGHT_PRICES.INFORMATION_SCHEMA.columns
+            where (
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_fare_legs' and upper("table_name") = upper('int_fare_legs')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_pricing_alerts' and upper("table_name") = upper('mart_pricing_alerts')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'seed_airport_geo' and upper("table_name") = upper('seed_airport_geo')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'seed_fare_bucket_map' and upper("table_name") = upper('seed_fare_bucket_map')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_route_competition' and upper("table_name") = upper('int_route_competition')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_timeseries_metrics' and upper("table_name") = upper('mart_timeseries_metrics')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_route_daily_prices' and upper("table_name") = upper('int_route_daily_prices')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'stg_route_stats' and upper("table_name") = upper('stg_route_stats')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_dashboard_kpis' and upper("table_name") = upper('mart_dashboard_kpis')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_carrier_performance' and upper("table_name") = upper('mart_carrier_performance')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_pricing_features' and upper("table_name") = upper('mart_pricing_features')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_extra_cost_summary' and upper("table_name") = upper('mart_extra_cost_summary')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_route_map_data' and upper("table_name") = upper('mart_route_map_data')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_route_performance' and upper("table_name") = upper('mart_route_performance')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_flagged_extra_costs' and upper("table_name") = upper('int_flagged_extra_costs')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'mart_booking_window_analysis' and upper("table_name") = upper('mart_booking_window_analysis')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'FLIGHT_PRICING_DATA' and upper("table_name") = upper('FLIGHT_PRICING_DATA')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'dim_carrier' and upper("table_name") = upper('dim_carrier')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'stg_fare_searches' and upper("table_name") = upper('stg_fare_searches')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_carrier_competition' and upper("table_name") = upper('int_carrier_competition')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_rules_r1_r2_r3' and upper("table_name") = upper('int_rules_r1_r2_r3')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_route_fare_per_mi_stats' and upper("table_name") = upper('int_route_fare_per_mi_stats')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'int_route_stats' and upper("table_name") = upper('int_route_stats')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'snap_carrier_marketshare' and upper("table_name") = upper('snap_carrier_marketshare')
+
+                )
+             or 
+                (
+                    
+    "table_schema" ilike 'WALRUS_PUBLIC' and upper("table_schema") = upper('WALRUS_PUBLIC')
+
+                    and 
+    "table_name" ilike 'carrier_mapping' and upper("table_name") = upper('carrier_mapping')
+
+                )
+            )
+        )
+        select *
+    from tables
+    join columns using ("table_database", "table_schema", "table_name")
+    order by "column_index"
+[0m08:55:42.245819 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m08:55:54.270657 [debug] [ThreadPool]: SQL status: SUCCESS 243 in 12.025 seconds
+[0m08:55:55.909275 [debug] [MainThread]: Wrote artifact CatalogArtifact to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\catalog.json
+[0m08:55:55.950166 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\manifest.json
+[0m08:55:55.952160 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\semantic_manifest.json
+[0m08:55:55.953158 [info ] [MainThread]: Catalog written to C:\Users\Mattia\Business_Challenge\fair_pricing_radar\target\catalog.json
+[0m08:55:55.955152 [debug] [MainThread]: Command `dbt docs generate` succeeded at 08:55:55.955152 after 25.52 seconds
+[0m08:55:55.956150 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m08:55:55.956150 [debug] [MainThread]: Connection 'FLIGHT_PRICES.information_schema' was left open.
+[0m08:55:55.957147 [debug] [MainThread]: On FLIGHT_PRICES.information_schema: Close
+[0m08:55:56.296240 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088DC19300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208986619C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002089873C8E0>]}
+[0m08:55:56.297237 [debug] [MainThread]: Flushing usage events
+[0m08:55:56.636331 [debug] [MainThread]: An error was encountered while trying to flush usage events

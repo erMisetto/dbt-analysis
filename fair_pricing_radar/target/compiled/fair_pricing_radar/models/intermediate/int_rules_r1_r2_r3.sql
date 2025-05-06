@@ -54,9 +54,9 @@ rules as (
       then 1 else 0
     end as r2_seat_scarcity_flag,
 
-    /* Rule 3: monopoly premium (HHI ≥ 0.7) */
+    /* Rule 3: monopoly premium (HHI ≥ 0.8) */
     case
-      when hhi >= 0.7
+      when hhi >= 0.8
        and usd_per_mi >= p95_usd_per_mi
       then 1 else 0
     end as r3_monopoly_premium_flag
