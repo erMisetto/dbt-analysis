@@ -6,7 +6,6 @@ profile: 'fair_pricing_radar'
 # Define where models live
 model-paths: ["models"]
 
-
 # Configure materializations
 models:
   fair_pricing_radar:
@@ -15,18 +14,50 @@ models:
     intermediate:
       +materialized: table
     marts:
-      +materialized: view
+      +materialized: table  # Default for all marts
+      # Existing marts
+      mart_pricing_features:
+        +materialized: table
+      mart_booking_window_analysis:
+        +materialized: table
+      mart_carrier_performance:
+        +materialized: table
+      mart_dashboard_kpis:
+        +materialized: table
+      mart_extra_cost_summary:
+        +materialized: table
+      mart_pricing_alerts:
+        +materialized: table
+      mart_route_map_data:
+        +materialized: table
+      mart_route_performance:
+        +materialized: table
+      mart_timeseries_metrics:
+        +materialized: table
+      # New optimized marts for Tableau
+      mart_booking_sample:
+        +materialized: table
+        +post-hook: "ANALYZE TABLE {{ this }}"
+      mart_route_summary:
+        +materialized: table
+        +post-hook: "ANALYZE TABLE {{ this }}"
+      mart_carrier_summary:
+        +materialized: table
+        +post-hook: "ANALYZE TABLE {{ this }}"
+      mart_crosstab_summary:
+        +materialized: table
+        +post-hook: "ANALYZE TABLE {{ this }}"
+
 seeds:
   fair_pricing_radar:        
     carrier_mapping:
-      enabled: true
+      +enabled: true
     seed_airport_geo:      
-      enabled: true
+      +enabled: true
     seed_fare_bucket_map:
-      enabled: true
+      +enabled: true
 
 vars:
-  z_threshold:      1.5          
+  z_threshold: 1.5          
   r2_pct_threshold: 0.90       
-  r3_hhi_threshold: 0.80       
-
+  r3_hhi_threshold: 0.80
