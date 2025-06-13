@@ -24,6 +24,16 @@ seeds:
       enabled: true
     seed_fare_bucket_map:
       enabled: true
+    airport_coordinates:
+      enabled: true
+      # The file lives at: <project_root>/data/airport_coordinates.csv
+      file: "airport_coordinates.csv"
+      delimiter: ";"
+      header: true
+      column_types:
+        iata_code: string
+        latitude:  numeric
+        longitude: numeric
 
 vars:
   z_threshold:      1.5          
